@@ -28,42 +28,49 @@
 }
 
 .page_nav {
+  border-style: solid;
+  border-width: 1px;
+  padding: 48px 48px 48px 48px;
   font-family: "Cormorant Garamond", serif;
-
-  font-size: 3rem;
+  font-size: 1.5rem;
+  background-color: #202020;
+  a {
+    text-decoration: none;
+    color: #efedea;
+  }
 }
 
 .post_image {
   width: 100%;
   img {
     width: 100%;
-
   }
 }
 
-.post_gallery {
+.post_gallery_container {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 0px;
+  grid-gap: 1px;
   padding: 0;
-
+  background-color: #202020;
+}
+.post_gallery {
+  padding: 20px;
+  background-color: #efedea;
 
   img {
-    width: 100%;
-    border-style: solid;
-    border-width: 1px;
-    border-top: none;
+    width: 100%; /* width of container */
+    height: 400px; /* height of container */
+    object-fit: cover;
   }
 }
 
 .post_module {
   display: grid;
   grid-template-columns: auto auto;
-margin-top: 0px;
+  margin-top: 0px;
   grid-gap: 0px;
   padding: 0;
-
-
 }
 
 .post_module_child {
@@ -74,7 +81,6 @@ margin-top: 0px;
   font-size: 0.9rem;
   background-color: #efedea;
 
-
   h3 {
     margin-top: 0px;
     padding: 16px 48px 16px 48px;
@@ -84,12 +90,68 @@ margin-top: 0px;
     border-left: none;
     border-right: none;
     border-top: none;
-
   }
   p {
     padding: 48px 48px 48px 48px;
     font-family: "basier_circleregular";
     line-height: 28px;
     text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 728px) {
+  .post_title {
+    padding: 16px 16px 16px 20px;
+  }
+
+  .post_date {
+    padding: 16px 16px 16px 20px;
+    width: 35%;
+  }
+  .post_module {
+    grid-template-columns: auto;
+  }
+
+  .post_module_child {
+    border-style: solid;
+    border-width: 1px;
+    border-top: none;
+    border-left: none;
+    font-size: 0.9rem;
+    background-color: #efedea;
+
+    h3 {
+      padding: 16px 20px 16px 20px;
+    }
+    p {
+      padding: 20px 20px 20px 20px;
+
+      text-align: left;
+    }
+  }
+  .post_gallery_container {
+    grid-template-columns: auto;
+  }
+  .post_gallery {
+    padding: 20px;
+    background-color: #efedea;
+
+    img {
+      height: 300px; /* height of container */
+    }
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .post_content {
+    margin-top: 10vh;
+  }
+  .post_gallery {
+    padding: 20px;
+    background-color: #efedea;
+
+    img {
+      height: 700px; /* height of container */
+    }
   }
 }

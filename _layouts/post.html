@@ -54,7 +54,7 @@
 
         <div class="post_module_child">
             <h3>about</h3>
-   
+
             <p>
                 {% if page.about %}
                 {{site.baseurl}}{{ page.about }}
@@ -64,7 +64,7 @@
 
         <div class="post_module_child">
             <h3>mediums</h3>
-     
+
             <p>
                 {% if page.medium %}
                 {{site.baseurl}}{{ page.medium }}
@@ -72,49 +72,58 @@
             </p>
         </div>
 
+
+
+        {% if page.role %}
         <div class="post_module">
-        <div class="post_module_child">
-            <h3>roles</h3>
-   
-            <p>
-                {% if page.role %}
-                {{site.baseurl}}{{ page.role }}
-                {% endif %}
-            </p>
+            <div class="post_module_child">
+                <h3>roles</h3>
+                <p>
+                    {{site.baseurl}}{{ page.role }}
+                </p>
+            </div>
+            {% endif %}
+
+
+
+            {% if page.medium %}
+            <div class="post_module_child">
+                <h3>mediums</h3>
+                <p>
+                    {{site.baseurl}}{{ page.medium }}
+                </p>
+            </div>
         </div>
-
-        <div class="post_module_child">
-            <h3>mediums</h3>
-     
-            <p>
-                {% if page.medium %}
-                {{site.baseurl}}{{ page.medium }}
-                {% endif %}
-            </p>
-        </div>
-        </div>
-
-        <div class="post_module_child">
-            <h3>mediums</h3>
-     
-            <p>
-                {% if page.medium %}
-                {{site.baseurl}}{{ page.medium }}
-                {% endif %}
-            </p>
-        </div>
-
-
-
-    </div>
-
-
-    <div class="post_gallery">
-        {% if page.gallery %}
-        <img src="{{site.baseurl}}{{ page.gallery }}">
         {% endif %}
 
+ 
+        {% if page.collaborators %}
+        <div class="post_module_child">
+            <h3>collaborators</h3>
+            <p>
+
+                {{site.baseurl}}{{ page.collaborators }}
+
+            </p>
+        </div>
+        {% endif %}
+
+
+
     </div>
+
+
+    <div class="post_gallery_container">
+        {% for image in page.gallery %}
+    <div class="post_gallery">
+
+
+              <img src="{{ image | relative_url }}">
+          
+
+    </div>
+    {% endfor %}
+</div>
 
 
 
@@ -132,8 +141,10 @@
     </div>
 
 
-    </div>
 
+
+    </div>
+    {% include footer.html %}
 
 
 </body>
