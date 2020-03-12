@@ -10,70 +10,86 @@
 }
 
 .post_title {
-    border-style: solid;
-    border-width: 1px;
-    font-family: "basier_circlesemi";
-    font-size: 0.9rem;
+  border-style: solid;
+  border-width: 1px;
+  font-family: "basier_circlesemi";
+  font-size: 0.9rem;
   width: 80%;
   padding: 16px 16px 16px 48px;
 }
 
 .post_date {
-    border-style: solid;
-    border-width: 1px;
-    font-family: "basier_circleregular";
-    font-size: 0.9rem;
+  border-style: solid;
+  border-width: 1px;
+  font-family: "basier_circleregular";
+  font-size: 0.9rem;
   width: 20%;
   padding: 16px 16px 16px 48px;
 }
 
 .page_nav {
-    font-family: "Cormorant Garamond", serif;
+  font-family: "Cormorant Garamond", serif;
 
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .post_image {
+  width: 100%;
+  img {
     width: 100%;
-    img {
-        width: 100%;
-    }
+
+  }
 }
 
 .post_gallery {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 0px;
-    padding: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
+  padding: 0;
 
-    img {
-        width: 100%;
-        border-style: solid;
-        border-width: 1px;
-        border-top: none;
-    }
-}
 
-.post_module {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 0px;
-    padding: 0;
-  }
-  
-  
-  .post_module_child {
+  img {
+    width: 100%;
     border-style: solid;
     border-width: 1px;
     border-top: none;
-    border-left: none;
-    font-family: "basier_circlesemi";
-    padding: 48px 48px 48px 48px;
-    font-size: 0.9rem;
-    line-height: 28px;
-    background-color: #efedea;
-  
-    p {
-      font-family: "basier_circleregular";
-    }
   }
+}
+
+.post_module {
+  display: grid;
+  grid-template-columns: auto auto;
+margin-top: 0px;
+  grid-gap: 0px;
+  padding: 0;
+
+
+}
+
+.post_module_child {
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-left: none;
+  font-size: 0.9rem;
+  background-color: #efedea;
+
+
+  h3 {
+    margin-top: 0px;
+    padding: 16px 48px 16px 48px;
+    font-family: "basier_circlesemi";
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+  }
+  p {
+    padding: 48px 48px 48px 48px;
+    font-family: "basier_circleregular";
+    line-height: 28px;
+    text-align: justify;
+  }
+}

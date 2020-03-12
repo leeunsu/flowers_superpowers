@@ -51,9 +51,10 @@
     </div>
 
     <div class="post_module">
+
         <div class="post_module_child">
-            about
-            <br>
+            <h3>about</h3>
+   
             <p>
                 {% if page.about %}
                 {{site.baseurl}}{{ page.about }}
@@ -62,30 +63,48 @@
         </div>
 
         <div class="post_module_child">
-            role
-            <br>
-            <p> {% if page.role %}
-                {{site.baseurl}}{{ page.role }}
-                {% endif %}</p>
+            <h3>mediums</h3>
+     
+            <p>
+                {% if page.medium %}
+                {{site.baseurl}}{{ page.medium }}
+                {% endif %}
+            </p>
         </div>
 
+        <div class="post_module">
         <div class="post_module_child">
-            about
-            <br>
+            <h3>roles</h3>
+   
             <p>
-                {% if page.about %}
-                {{site.baseurl}}{{ page.about }}
+                {% if page.role %}
+                {{site.baseurl}}{{ page.role }}
                 {% endif %}
             </p>
         </div>
 
         <div class="post_module_child">
-            role
-            <br>
-            <p> {% if page.role %}
-                {{site.baseurl}}{{ page.role }}
-                {% endif %}</p>
+            <h3>mediums</h3>
+     
+            <p>
+                {% if page.medium %}
+                {{site.baseurl}}{{ page.medium }}
+                {% endif %}
+            </p>
         </div>
+        </div>
+
+        <div class="post_module_child">
+            <h3>mediums</h3>
+     
+            <p>
+                {% if page.medium %}
+                {{site.baseurl}}{{ page.medium }}
+                {% endif %}
+            </p>
+        </div>
+
+
 
     </div>
 
