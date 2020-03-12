@@ -17,6 +17,15 @@ fields:
 - type: text
   name: title
   label: title
+- name: about
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: about
 - type: list
   name: categories
   label: categories
