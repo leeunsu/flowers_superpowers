@@ -12,6 +12,7 @@
 
 
   {% include header.html %}
+  {{ content}}
   <div class="intro">
 
 
@@ -21,57 +22,91 @@
   </div>
 
 
+
+
+
   <div class="content">
 
 
-    {% for post in site.categories.art limit:4 %}
+    <div class="module">
+      <div class="module_child">
+        <p>projects</p>
+      </div>
+    </div>
 
-    <article class="projects">
 
-      <div class="project_title">
-        <a href="{{site.baseurl}}{{ post.url }}">
-        <img src="{{site.baseurl}}{{ post.image }}">
-        </a>
-        <h1>
+
+
+    <div class="project_container">
+      {% for post in site.posts limit:6 %}
+
+      <article class="projects">
+        <div class="project_image">
           <a href="{{site.baseurl}}{{ post.url }}">
-
-            {{ post.title }}
+            <img src="{{site.baseurl}}{{ post.image }}">
           </a>
-        </h1>
+        </div>
+
+
+        <!-- <div class="project_info">
+          <div class="project_title">
+            <a href="{{site.baseurl}}{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </div>
+
+
+
+
+          <div class="project_date">
+            <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+          </div>
+
+        </div> -->
+
+
+      </article>
+
+      {% endfor %}
+    </div>
+
+    <div class="module">
+      <div class="module_child_right">
+        <p><a>see more ></a></p>
       </div>
-      <div class="info">
-
-        <div class="divider"></div>
-        <!-- {{ post.content }} -->
-        <div class="index_postsubheader"><time
-            datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></div>
-
-    </article>
-    {% endfor %}
-
-
+    </div>
 
 
 
     <div class="module">
-      <div class="module_child">
-        <p>projects</p>
-      </div>
-    </div>
-    <div class="module">
-      <div class="module_child">
-        <p>projects</p>
-      </div>
-      <div class="module_child">
-        <p>projects</p>
-      </div>
-      <div class="module_child">
-        <p>projects</p>
-      </div>
 
-    </div>
-    {{ content}}
+
+
+    <div class="contact_module">
+  much love from La Jolla, CA
+  <br>
+  <a>eunsoo lee 2020 ©</a>
+</div>
+
+
+
+<div class="contact_module">
+  contact
+        <br><br>
+       <a> itseunsoo@gmail.com</a><br>
+       <a> linkedin</a><br>
+       <a> resume</a>
+</div>
+
+</div>
+
+
   </div>
+
+
+
+
+
 
 
 
