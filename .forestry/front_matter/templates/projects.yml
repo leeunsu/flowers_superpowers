@@ -27,4 +27,5 @@ fields:
   name: image
   label: image
 pages:
+- _posts/matsci.md
 - _posts/sun-god-festival.md
