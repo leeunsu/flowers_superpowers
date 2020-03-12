@@ -19,5 +19,6 @@ about2: Sun God Festival is a student-curated, daylong music and arts festival a
   with thrilling moments and life-long memories from live performances by national
   touring artists, diverse food vendors, vibrant art and décor, and interactive brand
   activations.
+role: Creative Director, Lead Web Designer, Visual Designer
 
 ---
