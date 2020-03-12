@@ -1,0 +1,58 @@
+.intro {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3rem;
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 68%;
+  z-index: -1;
+  pointer-events: auto;
+  a {
+    text-decoration: underline;
+  }
+  a:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  sup {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
+.content {
+  margin-top: 100vh;
+  height: 100vh;
+  min-height: 100px;
+  background-color: white;
+}
+
+.module {
+  font-family: "basier_circlesemi";
+  display: flex;
+
+  p {
+    padding: 2px 16px 2px 48px;
+  }
+}
+
+.module_child {
+  font-family: "basier_circlesemi";
+  display: flex;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-left: none;
+  p {
+    padding: 2px 16px 2px 48px;
+  }
+}
+
+
+.projects {
+    
+}

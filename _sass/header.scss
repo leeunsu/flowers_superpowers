@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  padding: 32px 0 0 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+.block {
+  font-family: "basier_circlesemi";
+  width: 100%;
+  line-height: 32px;
+  font-size: 0.9rem;
+  a {
+    font-family: "basier_circleregular";
+    padding: 0 32px 0 0;
+    font-size: 0.9rem;
+  }
+  a:hover {
+      text-decoration: line-through;
+      cursor: pointer;
+  }
+}
+
+.side_text_left {
+  font-family: "basier_circleregular";
+  font-size: 0.9rem;
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transform: rotate(-90deg);
+  left: 0px;
+  text-align: center;
+  z-index: -1;
+}
+
+.side_text_right {
+  font-family: "basier_circleregular";
+  font-size: 0.9rem;
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transform: rotate(90deg);
+  right: 0px;
+  text-align: center;
+  z-index: -1;
+}
