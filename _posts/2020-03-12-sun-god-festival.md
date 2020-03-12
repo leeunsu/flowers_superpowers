@@ -20,5 +20,6 @@ about2: Sun God Festival is a student-curated, daylong music and arts festival a
   touring artists, diverse food vendors, vibrant art and décor, and interactive brand
   activations.
 role: Creative Director, Lead Web Designer, Visual Designer
+medium: Illustrator, Photoshop, Processing
 
 ---
