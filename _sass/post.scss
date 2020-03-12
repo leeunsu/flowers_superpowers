@@ -40,14 +40,27 @@
     }
 }
 
-.post_module {
+.post_gallery {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 0px;
     padding: 0;
 
+    img {
+        width: 100%;
+        border-style: solid;
+        border-width: 1px;
+        border-top: none;
+    }
+}
 
+.post_module {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0px;
+    padding: 0;
   }
+  
   
   .post_module_child {
     border-style: solid;

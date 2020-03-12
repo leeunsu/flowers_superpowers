@@ -108,6 +108,10 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .post_image img { width: 100%; }
 
+.post_gallery { display: grid; grid-template-columns: auto auto; grid-gap: 0px; padding: 0; }
+
+.post_gallery img { width: 100%; border-style: solid; border-width: 1px; border-top: none; }
+
 .post_module { display: grid; grid-template-columns: auto auto; grid-gap: 0px; padding: 0; }
 
 .post_module_child { border-style: solid; border-width: 1px; border-top: none; border-left: none; font-family: "basier_circlesemi"; padding: 48px 48px 48px 48px; font-size: 0.9rem; line-height: 28px; background-color: #efedea; }
