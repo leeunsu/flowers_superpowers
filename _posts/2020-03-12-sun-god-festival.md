@@ -13,5 +13,7 @@ about: Sun God Festival is a student-curated, daylong music and arts festival at
   with thrilling moments and life-long memories from live performances by national
   touring artists, diverse food vendors, vibrant art and décor, and interactive brand
   activations.
+role: ''
+medium: ''
 
 ---
