@@ -1,33 +1,34 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="{{ site.lang | default: "en-US" }}">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Stretch</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>{{ page.title }}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 </head>
 
 <body>
 
-    <header>
-    <div class="block"></div>
-    <div class="block"></div>
-    <div class="block">
-        eunsoo lee
-        <br>           <a href="http://localhost:4000">home</a><a>projects</a>
-    </div>
-</header>
-
-
+    {% include header.html %}
 
     <div class="post_content">
 
-        <div class="post_title" itemprop="name headline">Stretch</div>
+        <div class="post_title" itemprop="name headline">{{ page.title | escape }}</div>
 
-        <div class="post_date"><time class="dt-published" datetime="2020-02-11T00:00:00-08:00" itemprop="datePublished">
-                Feb 11, 2020
-            </time></div>
+        <div class="post_date">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {{ page.date | date: date_format }}
+            </time>
+            {%- if page.modified_date -%}
+            ~
+            {%- assign mdate = page.modified_date | date_to_xmlschema -%}
+            <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+                {{ mdate | date: date_format }}
+            </time>
+            {%- endif -%}
+        </div>
 
 
 
@@ -36,17 +37,16 @@
 
 
 
-        
-
+        {{ content}}
 
 
     </div>
 
 
     <div class="post_image">
-        
-        <img src="/uploads/stretch.gif">
-        
+        {% if page.image %}
+        <img src="{{site.baseurl}}{{ page.image }}">
+        {% endif %}
 
     </div>
 
@@ -76,10 +76,13 @@
 
 
     <div class="page_nav">
-        
-                
-                <a class="next" href="/art/2020/02/19/dotti-bauhaus.html">Dotti (Bauhaus) ></a>
-                
+        {% if page.previous.url %}
+        <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">
+            < {{page.previous.title}}</a>
+                {% endif %}
+                {% if page.next.url %}
+                <a class="next" href="{{site.baseurl}}{{page.next.url}}">{{page.next.title}} ></a>
+                {% endif %}
     </div>
 
 
