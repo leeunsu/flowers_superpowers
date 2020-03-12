@@ -15,5 +15,6 @@ about: Sun God Festival is a student-curated, daylong music and arts festival at
   activations.
 role: Creative Director, Lead Web Designer, Visual Designer
 medium: Illustrator, Photoshop, Processing
+collaborators: Emily Nguyen — Developer + Web Designer
 
 ---
