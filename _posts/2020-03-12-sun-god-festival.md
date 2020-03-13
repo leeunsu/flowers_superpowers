@@ -6,6 +6,7 @@ categories: []
 tags: []
 image: "/uploads/Hopkins001.jpg"
 gallery:
+- "/uploads/SGF19_Poster.png"
 - "/uploads/SunGodRepeat.JPG"
 - "/uploads/stretch.gif"
 about: Sun God Festival is a student-curated, daylong music and arts festival at UC
