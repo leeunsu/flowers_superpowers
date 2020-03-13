@@ -55,9 +55,13 @@ fields:
     required: false
   label: collaborators
 - name: contributions
-  type: text
+  type: textarea
+  default: ''
   config:
     required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: contributions
 pages:
 - _posts/2020-02-11-stretch.md
