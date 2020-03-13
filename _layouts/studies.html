@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+</head>
+
+<body>
+
+    {% include header.html %}
+
+    <div class="post_content">
+
+        <div class="module">
+            <div class="module_child">
+              <p>all studies</p>
+            </div>
+          </div>
+
+        <br>
+        {{ content}}
+    </div>
+
+
+ 
+    <div class="project_container">
+        {% for post in site.posts %}
+  
+        <article class="projects">
+          <div class="project_image">
+  
+            <div class="overlay">
+              <a href="{{site.baseurl}}{{ post.url }}">
+                <img src="{{site.baseurl}}{{ post.image }}">
+              </a>
+            </div>
+  
+          </div>
+          <!-- <div class="project_info">
+            <div class="project_title">
+              <a href="{{site.baseurl}}{{ post.url }}">
+                {{ post.title }}
+              </a>
+            </div>
+  
+  
+  
+  
+            <div class="project_date">
+              <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+            </div>
+  
+          </div> -->
+  
+  
+        </article>
+  
+        {% endfor %}
+      </div>
+
+
+
+
+
+
+
+    <div class="page_nav">
+        {% if page.previous.url %}
+        <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">
+            < {{page.previous.title}}</a>
+                {% endif %}
+                <a class="home" href="{{ site.url }}{{ site.baseurl }}">eunsoo lee</a>
+                {% if page.next.url %}
+                <a class="next" href="{{site.baseurl}}{{page.next.url}}">{{page.next.title}} ></a>
+                {% endif %}
+    </div>
+
+
+
+    {% include footer.html %}
+
+
+</body>
+
+</html>
