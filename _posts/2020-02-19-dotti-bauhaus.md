@@ -5,10 +5,9 @@ author: Czar Catstick
 categories:
 - art
 tags: []
-image: "/uploads/[MSE]BlenderMockup.png"
+image: ''
 date: 2020-03-05 08:00:00 +0000
-gallery:
-- "/uploads/[MSE]BlednerStudy001.JPG"
+gallery: []
 role: Visual Designer
 medium: Blender, Illustrator, Photoshop
 about: ''
