@@ -9,7 +9,10 @@ about: Winter Triton Fest is UC San Diego’s late night, weekend event series h
 categories: []
 tags: []
 image: "/uploads/WTF20_MobilePhone.png"
-gallery: []
+gallery:
+- "/uploads/WTF20_OmgTotes-01.png"
+- "/uploads/WTF20_Thumbnail-01.png"
+- "/uploads/WTF20_PostCard.png"
 role: Visual Designer, Developer + Web Designer
 medium: Illustrator, Photoshop
 collaborators: ''
