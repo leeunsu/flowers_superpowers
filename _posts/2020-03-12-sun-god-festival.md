@@ -17,5 +17,9 @@ about: Sun God Festival is a student-curated, daylong music and arts festival at
 role: Creative Director, Lead Web Designer, Visual Designer
 medium: Illustrator, Photoshop, Processing
 collaborators: Emily Nguyen — Developer + Web Designer
+contributions: |-
+  In the spring of 2019, I had the opportunity to lead in the creative direction and web design of UC San Diego's Sun God Festival. During the course of this project, I worked closely with the team behind A.S. Concerts and Events as well as A.S. Graphic Studio's webmaster, Emily Nguyen. Together, we were able to successfully create a beautiful and unforgettable Sun God Festival.
+
+  Thank you to everyone who was on the team.
 
 ---
