@@ -102,9 +102,13 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .post_date { border-style: solid; border-width: 1px; font-family: "basier_circleregular"; font-size: 0.85rem; width: 20%; padding: 16px 16px 16px 48px; }
 
-.page_nav { border-style: solid; border-width: 1px; padding: 48px 48px 48px 48px; font-family: "Cormorant Garamond", serif; font-size: 1.5rem; background-color: #202020; }
+.page_nav { border-style: solid; border-width: 1px; padding: 48px 48px 48px 48px; font-family: "Cormorant Garamond", serif; font-size: 1.5rem; background-color: #202020; display: flex; }
 
 .page_nav a { text-decoration: none; color: #efedea; }
+
+.prev { text-align: left; display: block; width: 100%; }
+
+.next { text-align: right; display: block; width: 100%; }
 
 .post_image { width: 100%; }
 
@@ -132,7 +136,8 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
   .post_module_child p { padding: 20px 20px 20px 20px; text-align: left; }
   .post_gallery_container { grid-template-columns: auto; }
   .post_gallery { padding: 20px; background-color: #efedea; }
-  .post_gallery img { height: 300px; /* height of container */ } }
+  .post_gallery img { height: 300px; /* height of container */ }
+  .page_nav { border-style: solid; border-width: 1px; padding: 16px 16px 16px 16px; } }
 
 @media screen and (min-width: 1600px) { .post_content { margin-top: 10vh; }
   .post_gallery { padding: 20px; background-color: #efedea; }
