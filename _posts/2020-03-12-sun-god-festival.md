@@ -8,6 +8,7 @@ image: "/uploads/Hopkins001.jpg"
 gallery:
 - "/uploads/SGF19_Poster.png"
 - "/uploads/SunGodRepeat.JPG"
+- "/uploads/lineup.gif"
 - "/uploads/stretch.gif"
 about: Sun God Festival is a student-curated, daylong music and arts festival at UC
   San Diego. Named as one of Live Nation’s “Top 5 College Concerts That Should Be
