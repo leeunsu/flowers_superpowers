@@ -9,25 +9,26 @@ header {
 }
 
 .block {
-  font-family: "basier_circlesemi";
+
   width: 100%;
-  line-height: 32px;
+  line-height: 28px;
   font-size: $fontSize;
+  a:nth-child(1){
+    font-family: "basier_circlesemi";
+  }
   a {
-      text-decoration: none;
-      color: #202020;
+    text-decoration: none;
+    color: #202020;
     font-family: "basier_circleregular";
     padding: 0 32px 0 0;
     font-size: $fontSize;
   }
   a:hover {
-      text-decoration: line-through;
-      cursor: pointer;
+    cursor: pointer;
   }
 }
 
 .side_text_left {
-    
   font-family: "basier_circleregular";
   font-size: $fontSize;
   margin: 0;
@@ -39,7 +40,6 @@ header {
   left: -20px;
   text-align: center;
   z-index: -1;
-
 }
 
 .side_text_right {
@@ -56,12 +56,13 @@ header {
   z-index: -1;
 }
 
-
+@media only screen and (max-width: 728px) {
+  .side_text_left,
+  .side_text_right {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 728px) {
-
-    .side_text_left,.side_text_right{
-        display: none;
-  }
 
 }

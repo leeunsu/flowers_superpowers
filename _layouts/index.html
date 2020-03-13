@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+
 </head>
 
 <body>
@@ -19,7 +20,7 @@
 
   <div class="intro">
 
-
+<div class="star">✦<br><br></div>
     Storytelling — designing ­— deconstructing from La Jolla, CA. <sup>current</sup> <i>Co-Director of Design</i> at
     <a>Other People</a>. <sup>previous</sup> <i>Visual Design</i>
     at <a>A.S. Graphic Studio</a>.
@@ -43,7 +44,7 @@
 
 
     <div class="project_container">
-      {% for post in site.posts limit:6 %}
+      {% for post in site.posts limit:3 %}
 
       <article class="projects">
         <div class="project_image">

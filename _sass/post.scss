@@ -44,13 +44,21 @@
 .prev {
   text-align: left;
   display: block;
-  width: 100%;
+  width: 40%;
 }
 
 .next {
   text-align: right;
   display: block;
-  width: 100%;
+  width: 40%;
+}
+
+.home {
+  align-self: center;
+  font-family: "basier_circlesemi";
+  font-size: $fontSize;
+  text-align: center;
+  width: 20%;
 }
 
 .post_image {
@@ -150,13 +158,21 @@
     background-color: $backgroundColor;
 
     img {
-      height: 300px; /* height of container */
+      height: 200px; /* height of container */
     }
   }
   .page_nav {
-    border-style: solid;
-    border-width: 1px;
     padding: 16px 16px 16px 16px;
+  }
+
+  .prev,
+  .next {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .home {
+    display: none;
   }
 }
 

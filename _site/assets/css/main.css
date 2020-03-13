@@ -3,11 +3,13 @@ body { background: #efedea; color: #000000; font-family: -apple-system, BlinkMac
 
 header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z-index: -1; width: 100%; }
 
-.block { font-family: "basier_circlesemi"; width: 100%; line-height: 32px; font-size: 0.85rem; }
+.block { width: 100%; line-height: 28px; font-size: 0.85rem; }
+
+.block a:nth-child(1) { font-family: "basier_circlesemi"; }
 
 .block a { text-decoration: none; color: #202020; font-family: "basier_circleregular"; padding: 0 32px 0 0; font-size: 0.85rem; }
 
-.block a:hover { text-decoration: line-through; cursor: pointer; }
+.block a:hover { cursor: pointer; }
 
 .side_text_left { font-family: "basier_circleregular"; font-size: 0.85rem; margin: 0; position: fixed; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); transform: rotate(-90deg); left: -20px; text-align: center; z-index: -1; }
 
@@ -45,7 +47,11 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .contact_module { font-family: "basier_circlesemi"; padding: 48px 48px 48px 48px; font-size: 0.85rem; line-height: 24px; background-color: #efedea; }
 
-.contact_module a { font-family: "basier_circleregular"; }
+.contact_module p { font-family: "basier_circleregular"; padding: none; margin: none; }
+
+.contact_module a { font-family: "basier_circleregular"; text-decoration: underline; color: #202020; }
+
+.contact_module a:hover { text-decoration: none; }
 
 .project_container { display: grid; grid-template-columns: auto auto auto; grid-gap: 1px; padding: 0; background-color: #202020; }
 
@@ -71,19 +77,6 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .about_column_parent sup { font-size: 0.85rem; text-align: center; }
 
-@media only screen and (max-width: 728px) { .intro { width: 90%; text-align: left; }
-  .module { font-family: "basier_circlesemi"; display: flex; width: 100%; }
-  .module p { padding: 2px 20px 2px 20px; }
-  .module2 { display: grid; grid-template-columns: auto; }
-  .contact_module { font-family: "basier_circlesemi"; padding: 20px 20px 20px 20px; }
-  .project_container { display: grid; grid-template-columns: auto; grid-gap: 1px; padding: 0; background-color: #202020; }
-  .about_column_parent { display: grid; grid-template-columns: auto; grid-gap: 8px; padding: 0; text-align: justify; } }
-
-@media only screen and (max-width: 1024px) and (min-width: 729px) { .project_container { display: grid; grid-template-columns: auto auto; grid-gap: 1px; padding: 0; background-color: #202020; } }
-
-@media screen and (min-width: 2400px) { .projects { width: 95%; padding: 20px; border-style: solid; border-width: 0 1px 1px 0px; justify-content: space-evenly; }
-  .projects img { width: 100%; /* width of container */ height: 300px; /* height of container */ object-fit: cover; } }
-
 .overlay { position: relative; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 1; transition: 0.2s ease; margin: auto; }
 
 .projects:hover .overlay { opacity: 0.7; }
@@ -96,6 +89,27 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .button:hover { background-color: #202020; /* Green */ color: white; }
 
+.star { display: none; }
+
+@media only screen and (max-width: 728px) { .intro { width: 90%; text-align: left; bottom: 16px; top: initial; font-size: 2rem; position: absolute; -ms-transform: translate(-50%, 0%); transform: translate(-50%, 0%); }
+  .star { display: block; text-align: center; width: 100%; }
+  .module { font-family: "basier_circlesemi"; display: flex; width: 100%; }
+  .module p { padding: 2px 20px 2px 20px; }
+  .module2 { display: grid; grid-template-columns: auto; }
+  .contact_module { font-family: "basier_circlesemi"; padding: 20px 20px 20px 20px; }
+  .project_container { display: grid; grid-template-columns: auto; grid-gap: 1px; padding: 0; background-color: #202020; }
+  .projects { padding: 20px; background-color: #efedea; }
+  .projects img { width: 100%; /* width of container */ height: 200px; /* height of container */ object-fit: cover; }
+  .about_column_parent { display: grid; grid-template-columns: auto; grid-gap: 8px; padding: 0; text-align: justify; }
+  .about_content { width: 90%; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .project_container { display: grid; grid-template-columns: auto auto; grid-gap: 1px; padding: 0; background-color: #202020; }
+  .projects { padding: 20px; background-color: #efedea; }
+  .projects img { width: 100%; /* width of container */ height: 250px; /* height of container */ object-fit: cover; } }
+
+@media screen and (min-width: 2400px) { .projects { width: 95%; padding: 20px; border-style: solid; border-width: 0 1px 1px 0px; justify-content: space-evenly; }
+  .projects img { width: 100%; /* width of container */ height: 500px; /* height of container */ object-fit: cover; } }
+
 .post_content { margin-top: 16vh; display: flex; width: 100%; grid-template-columns: auto auto; grid-gap: 1px; padding: 0; background-color: #efedea; }
 
 .post_title { border-style: solid; border-width: 1px; font-family: "basier_circlesemi"; font-size: 0.85rem; width: 80%; padding: 16px 16px 16px 48px; }
@@ -106,9 +120,11 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .page_nav a { text-decoration: none; color: #efedea; }
 
-.prev { text-align: left; display: block; width: 100%; }
+.prev { text-align: left; display: block; width: 40%; }
 
-.next { text-align: right; display: block; width: 100%; }
+.next { text-align: right; display: block; width: 40%; }
+
+.home { align-self: center; font-family: "basier_circlesemi"; font-size: 0.85rem; text-align: center; width: 20%; }
 
 .post_image { width: 100%; }
 
@@ -136,8 +152,10 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
   .post_module_child p { padding: 20px 20px 20px 20px; text-align: left; }
   .post_gallery_container { grid-template-columns: auto; }
   .post_gallery { padding: 20px; background-color: #efedea; }
-  .post_gallery img { height: 300px; /* height of container */ }
-  .page_nav { border-style: solid; border-width: 1px; padding: 16px 16px 16px 16px; } }
+  .post_gallery img { height: 200px; /* height of container */ }
+  .page_nav { padding: 16px 16px 16px 16px; }
+  .prev, .next { width: 100%; font-size: 2rem; }
+  .home { display: none; } }
 
 @media screen and (min-width: 1600px) { .post_content { margin-top: 10vh; }
   .post_gallery { padding: 20px; background-color: #efedea; }
