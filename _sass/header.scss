@@ -12,13 +12,13 @@ header {
   font-family: "basier_circlesemi";
   width: 100%;
   line-height: 32px;
-  font-size: 0.9rem;
+  font-size: $fontSize;
   a {
       text-decoration: none;
       color: #202020;
     font-family: "basier_circleregular";
     padding: 0 32px 0 0;
-    font-size: 0.9rem;
+    font-size: $fontSize;
   }
   a:hover {
       text-decoration: line-through;
@@ -29,7 +29,7 @@ header {
 .side_text_left {
     
   font-family: "basier_circleregular";
-  font-size: 0.9rem;
+  font-size: $fontSize;
   margin: 0;
   position: fixed;
   top: 50%;
@@ -44,7 +44,7 @@ header {
 
 .side_text_right {
   font-family: "basier_circleregular";
-  font-size: 0.9rem;
+  font-size: $fontSize;
   margin: 0;
   position: fixed;
   top: 50%;

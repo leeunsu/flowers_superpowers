@@ -3,15 +3,15 @@ body { background: #efedea; color: #000000; font-family: -apple-system, BlinkMac
 
 header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z-index: -1; width: 100%; }
 
-.block { font-family: "basier_circlesemi"; width: 100%; line-height: 32px; font-size: 0.9rem; }
+.block { font-family: "basier_circlesemi"; width: 100%; line-height: 32px; font-size: 0.85rem; }
 
-.block a { text-decoration: none; color: #202020; font-family: "basier_circleregular"; padding: 0 32px 0 0; font-size: 0.9rem; }
+.block a { text-decoration: none; color: #202020; font-family: "basier_circleregular"; padding: 0 32px 0 0; font-size: 0.85rem; }
 
 .block a:hover { text-decoration: line-through; cursor: pointer; }
 
-.side_text_left { font-family: "basier_circleregular"; font-size: 0.9rem; margin: 0; position: fixed; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); transform: rotate(-90deg); left: -20px; text-align: center; z-index: -1; }
+.side_text_left { font-family: "basier_circleregular"; font-size: 0.85rem; margin: 0; position: fixed; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); transform: rotate(-90deg); left: -20px; text-align: center; z-index: -1; }
 
-.side_text_right { font-family: "basier_circleregular"; font-size: 0.9rem; margin: 0; position: fixed; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); transform: rotate(90deg); right: -20px; text-align: center; z-index: -1; }
+.side_text_right { font-family: "basier_circleregular"; font-size: 0.85rem; margin: 0; position: fixed; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); transform: rotate(90deg); right: -20px; text-align: center; z-index: -1; }
 
 @media only screen and (max-width: 728px) { .side_text_left, .side_text_right { display: none; } }
 
@@ -25,7 +25,7 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .intro a:hover { text-decoration: none; cursor: pointer; }
 
-.intro sup { font-size: 0.9rem; text-align: center; }
+.intro sup { font-size: 0.85rem; text-align: center; }
 
 .content { margin-top: 100vh; min-height: 100px; background-color: #efedea; }
 
@@ -33,17 +33,17 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .module p { padding: 2px 16px 2px 48px; }
 
-.module_child { font-family: "basier_circlesemi"; font-size: 0.9rem; display: flex; width: 100%; border-style: solid; border-width: 1px 0 1px 1px; }
+.module_child { font-family: "basier_circlesemi"; font-size: 0.85rem; display: flex; width: 100%; border-style: solid; border-width: 1px 0 1px 1px; }
 
 .module_child p { padding: 2px 16px 2px 48px; }
 
-.module_child_right { font-family: "basier_circleregular"; font-size: 0.9rem; display: flex; width: 100%; text-align: right; background-color: #202020; color: white; }
+.module_child_right { font-family: "basier_circleregular"; font-size: 0.85rem; display: flex; width: 100%; text-align: right; background-color: #202020; color: white; }
 
 .module_child_right p { width: 100%; padding: 2px 48px 2px 48px; text-align: right; }
 
 .module2 { display: grid; grid-template-columns: auto auto; grid-gap: 1px; padding: 0; background-color: #202020; }
 
-.contact_module { font-family: "basier_circlesemi"; padding: 48px 48px 48px 48px; font-size: 0.9rem; line-height: 24px; background-color: #efedea; }
+.contact_module { font-family: "basier_circlesemi"; padding: 48px 48px 48px 48px; font-size: 0.85rem; line-height: 24px; background-color: #efedea; }
 
 .contact_module a { font-family: "basier_circleregular"; }
 
@@ -57,19 +57,19 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .project_title { width: 100%; line-height: 48px; text-align: center; border-style: solid; border-width: 1px; }
 
-.project_title a { font-family: "basier_circlesemi"; font-size: 0.9rem; text-decoration: none; }
+.project_title a { font-family: "basier_circlesemi"; font-size: 0.85rem; text-decoration: none; }
 
-.project_date { font-family: "basier_circleregular"; font-size: 0.9rem; width: 35%; border-style: solid; border-width: 1px; vertical-align: middle; text-align: center; }
+.project_date { font-family: "basier_circleregular"; font-size: 0.85rem; width: 35%; border-style: solid; border-width: 1px; vertical-align: middle; text-align: center; }
 
 .about_column_parent { display: grid; grid-template-columns: auto auto; grid-gap: 64px; padding: 0; text-align: justify; }
 
-.about_column_parent p { font-family: "basier_circleregular"; font-size: 0.9rem; line-height: 28px; }
+.about_column_parent p { font-family: "basier_circleregular"; font-size: 0.85rem; line-height: 28px; }
 
 .about_column_parent a { text-decoration: underline; }
 
 .about_column_parent a:hover { text-decoration: none; cursor: pointer; }
 
-.about_column_parent sup { font-size: 0.9rem; text-align: center; }
+.about_column_parent sup { font-size: 0.85rem; text-align: center; }
 
 @media only screen and (max-width: 728px) { .intro { width: 90%; text-align: left; }
   .module { font-family: "basier_circlesemi"; display: flex; width: 100%; }
@@ -98,9 +98,9 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .post_content { margin-top: 16vh; display: flex; width: 100%; grid-template-columns: auto auto; grid-gap: 1px; padding: 0; background-color: #efedea; }
 
-.post_title { border-style: solid; border-width: 1px; font-family: "basier_circlesemi"; font-size: 0.9rem; width: 80%; padding: 16px 16px 16px 48px; }
+.post_title { border-style: solid; border-width: 1px; font-family: "basier_circlesemi"; font-size: 0.85rem; width: 80%; padding: 16px 16px 16px 48px; }
 
-.post_date { border-style: solid; border-width: 1px; font-family: "basier_circleregular"; font-size: 0.9rem; width: 20%; padding: 16px 16px 16px 48px; }
+.post_date { border-style: solid; border-width: 1px; font-family: "basier_circleregular"; font-size: 0.85rem; width: 20%; padding: 16px 16px 16px 48px; }
 
 .page_nav { border-style: solid; border-width: 1px; padding: 48px 48px 48px 48px; font-family: "Cormorant Garamond", serif; font-size: 1.5rem; background-color: #202020; }
 
@@ -118,7 +118,7 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .post_module { display: grid; grid-template-columns: auto auto; margin-top: 0px; grid-gap: 0px; padding: 0; }
 
-.post_module_child { border-style: solid; border-width: 1px; border-top: none; border-left: none; font-size: 0.9rem; background-color: #efedea; }
+.post_module_child { border-style: solid; border-width: 1px; border-top: none; border-left: none; font-size: 0.8rem; background-color: #efedea; }
 
 .post_module_child h3 { margin-top: 0px; padding: 16px 48px 16px 48px; font-family: "basier_circlesemi"; border-style: solid; border-width: 1px; border-left: none; border-right: none; border-top: none; }
 
@@ -127,7 +127,7 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 @media only screen and (max-width: 728px) { .post_title { padding: 16px 16px 16px 20px; }
   .post_date { padding: 16px 16px 16px 20px; width: 35%; }
   .post_module { grid-template-columns: auto; }
-  .post_module_child { border-style: solid; border-width: 1px; border-top: none; border-left: none; font-size: 0.9rem; background-color: #efedea; }
+  .post_module_child { border-style: solid; border-width: 1px; border-top: none; border-left: none; font-size: 0.85rem; background-color: #efedea; }
   .post_module_child h3 { padding: 16px 20px 16px 20px; }
   .post_module_child p { padding: 20px 20px 20px 20px; text-align: left; }
   .post_gallery_container { grid-template-columns: auto; }

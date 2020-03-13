@@ -52,25 +52,25 @@
 
     <div class="post_module">
 
+
+        {% if page.about %}
         <div class="post_module_child">
             <h3>about</h3>
-
             <p>
-                {% if page.about %}
                 {{ page.about }}
-                {% endif %}
             </p>
         </div>
+        {% endif %}
 
+
+        {% if page.contributions %}
         <div class="post_module_child">
-            <h3>mediums</h3>
-
+            <h3>contributions</h3>
             <p>
-                {% if page.medium %}
-                {{ page.medium }}
-                {% endif %}
+                {{ page.contributions }}
             </p>
         </div>
+        {% endif %}
 
 
 
@@ -79,7 +79,7 @@
             <div class="post_module_child">
                 <h3>roles</h3>
                 <p>
-         {{ page.role }}
+                    {{ page.role }}
                 </p>
             </div>
             {% endif %}
@@ -90,19 +90,19 @@
             <div class="post_module_child">
                 <h3>mediums</h3>
                 <p>
-        {{ page.medium }}
+                    {{ page.medium }}
                 </p>
             </div>
         </div>
         {% endif %}
 
- 
+
         {% if page.collaborators %}
         <div class="post_module_child">
             <h3>collaborators</h3>
             <p>
 
-               {{ page.collaborators }}
+                {{ page.collaborators }}
 
             </p>
         </div>
@@ -115,15 +115,15 @@
 
     <div class="post_gallery_container">
         {% for image in page.gallery %}
-    <div class="post_gallery">
+        <div class="post_gallery">
 
 
-              <img src="{{ image | relative_url }}">
-          
+            <img src="{{ image | relative_url }}">
 
+
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
-</div>
 
 
 
