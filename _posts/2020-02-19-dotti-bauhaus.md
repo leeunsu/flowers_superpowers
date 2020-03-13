@@ -1,10 +1,18 @@
 ---
-layout: art_post
-title: Dotti (Bauhaus)
+layout: post
+title: MATSCI
 author: Czar Catstick
 categories:
 - art
 tags: []
-image: "/uploads/art001.png"
+image: "/uploads/[MSE]BlenderMockup.png"
+date: 2020-03-05 08:00:00 +0000
+gallery:
+- "/uploads/[MSE]BlednerStudy001.JPG"
+role: Visual Designer
+medium: Blender, Illustrator, Photoshop
+about: ''
+collaborators: ''
+contributions: ''
 
 ---
