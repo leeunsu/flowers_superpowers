@@ -121,6 +121,9 @@
 }
 
 @media only screen and (max-width: 728px) {
+  .post_content {
+    margin-top: 12vh;
+  }
   .post_title {
     padding: 16px 16px 16px 20px;
   }
@@ -173,6 +176,17 @@
 
   .home {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) {
+  .post_gallery {
+    padding: 20px;
+    background-color: $backgroundColor;
+
+    img {
+      height: 250px; /* height of container */
+    }
   }
 }
 
