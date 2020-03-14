@@ -45,7 +45,7 @@
 
     <div class="post_image">
         {% if page.image %}
-        <img src="{{site.baseurl}}{{ page.image }}">
+        <img src="{{ page.image }}">
         {% endif %}
 
     </div>
@@ -127,12 +127,12 @@
 
     <div class="page_nav">
         {% if page.previous.url %}
-        <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">
+        <a class="prev" href="{{page.previous.url}}">
             < {{page.previous.title}}</a>
                 {% endif %}
-                <a class="home" href="{{ site.url }}{{ site.baseurl }}">eunsoo lee</a>
+                <a class="home" href="{{ site.url }}">eunsoo lee</a>
                 {% if page.next.url %}
-                <a class="next" href="{{site.baseurl}}{{page.next.url}}">{{page.next.title}} ></a>
+                <a class="next" href="{{page.next.url}}">{{page.next.title}} ></a>
                 {% endif %}
     </div>
 
