@@ -135,7 +135,7 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .ticker-wrap .ticker__item { display: inline-block; padding: 0 2rem; font-size: 2rem; color: white; }
 
-.post_content { margin-top: 16vh; display: flex; width: 100%; grid-template-columns: auto auto; grid-gap: 1px; padding: 0; background-color: #efedea; }
+.post_content { margin-top: 112px; display: flex; width: 100%; grid-template-columns: auto auto; grid-gap: 1px; padding: 0; background-color: #efedea; }
 
 .post_title { border-style: solid; border-width: 1px; font-family: "basier_circlesemi"; font-size: 0.85rem; width: 80%; padding: 16px 16px 16px 48px; }
 
@@ -169,7 +169,7 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .post_module_child p { padding: 48px 48px 48px 48px; font-family: "basier_circleregular"; line-height: 28px; text-align: justify; }
 
-@media only screen and (max-width: 728px) { .post_content { margin-top: 12vh; }
+@media only screen and (max-width: 728px) { .post_content { margin-top: 88px; }
   .post_title { padding: 16px 16px 16px 20px; }
   .post_date { padding: 16px 16px 16px 20px; width: 35%; }
   .post_module { grid-template-columns: auto; }
@@ -186,8 +186,7 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .post_gallery { padding: 20px; background-color: #efedea; }
   .post_gallery img { height: 250px; /* height of container */ } }
 
-@media screen and (min-width: 1600px) { .post_content { margin-top: 10vh; }
-  .post_gallery { padding: 20px; background-color: #efedea; }
+@media screen and (min-width: 1600px) { .post_gallery { padding: 20px; background-color: #efedea; }
   .post_gallery img { height: 700px; /* height of container */ } }
 
 /*# sourceMappingURL=main.css.map */

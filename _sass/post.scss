@@ -1,6 +1,5 @@
 .post_content {
-  margin-top: 16vh;
-
+  margin-top: 112px;
   display: flex;
   width: 100%;
   grid-template-columns: auto auto;
@@ -122,8 +121,9 @@
 
 @media only screen and (max-width: 728px) {
   .post_content {
-    margin-top: 12vh;
+    margin-top: 88px;
   }
+
   .post_title {
     padding: 16px 16px 16px 20px;
   }
@@ -191,9 +191,7 @@
 }
 
 @media screen and (min-width: 1600px) {
-  .post_content {
-    margin-top: 10vh;
-  }
+
   .post_gallery {
     padding: 20px;
     background-color: $backgroundColor;
