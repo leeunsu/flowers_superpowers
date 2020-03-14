@@ -1,5 +1,5 @@
 ---
 layout: index
-title: "home"
+title: "Concept Art"
 ---
 
