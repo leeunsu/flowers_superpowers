@@ -14,13 +14,13 @@
 
   <header>
     <div class="block"></div>
-    <div class="block"><a id="theme-toggle" onclick="modeSwitcher()"></a></div>
+    <div class="block"></div>
     
 
     
     <div class="block">
         <a href="http://localhost:4000">eunsoo lee</a>
-        <br><a href="http://localhost:4000">home</a><a href="/studies">studies</a>
+        <div class="block_child"><a href="http://localhost:4000">home</a><a href="/studies">studies</a><a id="theme-toggle" onclick="modeSwitcher()"></a></div>
     </div>
 </header>
 
@@ -175,7 +175,10 @@
         <br>
 
         <div class="about_column_parent">
+
           <div class="about_column">
+
+
             <p> I am currently the <i>Co-Director of Design</i> at <a>Other People</a>. Together, with a team of core
               staff, visual artists,
               and web-developers, we are aiming to inspire creative expression on students from all disciplines through
@@ -346,4 +349,5 @@ if (theme === "dark") {
 </body>
 
 </html>
+
 

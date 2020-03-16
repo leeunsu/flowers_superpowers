@@ -9,13 +9,21 @@ header {
 }
 
 .block {
-
   width: 100%;
   line-height: 28px;
   font-size: $fontSize;
-  a:nth-child(1){
-    font-family: "basier_circlesemi";
+
+  font-family: "basier_circlesemi";
+  a {
+    text-decoration: none;
+    color: $bodyColor;
+    padding: 0 32px 0 0;
+    font-size: $fontSize;
   }
+}
+
+.block_child {
+  display: flex;
   a {
     text-decoration: none;
     color: $bodyColor;
@@ -60,14 +68,15 @@ header {
   header {
     display: flex;
     padding: 16px 0 0 0;
-
   }
   .side_text_left,
   .side_text_right {
     display: none;
   }
+  .block_child :nth-child(3){
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 728px) {
-
 }

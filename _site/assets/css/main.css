@@ -10,20 +10,23 @@ body { background: var(--background-color); color: var(--light-text-color); font
 
 header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z-index: -1; width: 100%; }
 
-.block { width: 100%; line-height: 28px; font-size: 0.85rem; }
+.block { width: 100%; line-height: 28px; font-size: 0.85rem; font-family: "basier_circlesemi"; }
 
-.block a:nth-child(1) { font-family: "basier_circlesemi"; }
+.block a { text-decoration: none; color: var(--light-text-color); padding: 0 32px 0 0; font-size: 0.85rem; }
 
-.block a { text-decoration: none; color: var(--light-text-color); font-family: "basier_circleregular"; padding: 0 32px 0 0; font-size: 0.85rem; }
+.block_child { display: flex; }
 
-.block a:hover { cursor: pointer; }
+.block_child a { text-decoration: none; color: var(--light-text-color); font-family: "basier_circleregular"; padding: 0 32px 0 0; font-size: 0.85rem; }
+
+.block_child a:hover { cursor: pointer; }
 
 .side_text_left { font-family: "basier_circleregular"; font-size: 0.85rem; margin: 0; position: fixed; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); transform: rotate(-90deg); left: -20px; text-align: center; z-index: -1; }
 
 .side_text_right { font-family: "basier_circleregular"; font-size: 0.85rem; margin: 0; position: fixed; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); transform: rotate(90deg); right: -20px; text-align: center; z-index: -1; }
 
 @media only screen and (max-width: 728px) { header { display: flex; padding: 16px 0 0 0; }
-  .side_text_left, .side_text_right { display: none; } }
+  .side_text_left, .side_text_right { display: none; }
+  .block_child :nth-child(3) { display: none; } }
 
 @font-face { font-family: "basier_circleregular"; src: url("../../assets/fonts/basiercircle-regular-webfont.eot"); src: url("../../assets/fonts/basiercircle-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/basiercircle-regular-webfont.woff2") format("woff2"), url("../assets/fonts/basiercircle-regular-webfont.woff") format("woff"), url("../../assets/fonts/basiercircle-regular-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 
@@ -156,7 +159,7 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .next { text-align: right; display: block; width: 40%; }
 
-.home { align-self: center; font-family: "basier_circlesemi"; font-size: 0.85rem; text-align: center; width: 20%; }
+.home { align-self: center; font-family: "basier_circlesemi"; font-size: 0.85rem; text-align: center; width: 100%; }
 
 .post_image { width: 100%; }
 
@@ -188,7 +191,7 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
   .post_gallery img { height: 225px; /* height of container */ }
   .page_nav { padding: 16px 16px 16px 16px; }
   .prev, .next { width: 100%; font-size: 1.2rem; }
-  .home { display: none; } }
+  .home { width: 100%; display: none; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .post_gallery { padding: 20px; background-color: var(--background-color); }
   .post_gallery img { height: 250px; /* height of container */ } }
