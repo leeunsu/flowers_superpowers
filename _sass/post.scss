@@ -161,7 +161,7 @@
     background-color: $backgroundColor;
 
     img {
-      height: 200px; /* height of container */
+      height: 225px; /* height of container */
     }
   }
   .page_nav {
@@ -171,7 +171,7 @@
   .prev,
   .next {
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 
   .home {
@@ -191,7 +191,6 @@
 }
 
 @media screen and (min-width: 1600px) {
-
   .post_gallery {
     padding: 20px;
     background-color: $backgroundColor;

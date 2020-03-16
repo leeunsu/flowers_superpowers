@@ -185,9 +185,9 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
   .post_module_child p { padding: 20px 20px 20px 20px; text-align: left; }
   .post_gallery_container { grid-template-columns: auto; }
   .post_gallery { padding: 20px; background-color: var(--background-color); }
-  .post_gallery img { height: 200px; /* height of container */ }
+  .post_gallery img { height: 225px; /* height of container */ }
   .page_nav { padding: 16px 16px 16px 16px; }
-  .prev, .next { width: 100%; font-size: 2rem; }
+  .prev, .next { width: 100%; font-size: 1.2rem; }
   .home { display: none; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .post_gallery { padding: 20px; background-color: var(--background-color); }
