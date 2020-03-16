@@ -12,7 +12,7 @@ image: "/uploads/WTF20_MobilePhone.png"
 gallery:
 - "/uploads/Tfest002-1.png"
 - "/uploads/Tfest001-1.png"
-- "/uploads/WTF20_OmgTotes-01.png"
+- "/uploads/Totes-01.png"
 - "/uploads/WTF20_Thumbnail-01.png"
 - "/uploads/WTF20_PostCard.png"
 role: Visual Designer, Developer + Web Designer
