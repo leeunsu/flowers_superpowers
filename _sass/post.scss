@@ -10,7 +10,7 @@
 
 .post_title {
   border-style: solid;
-  border-width: 1px;
+  border-width: 1px 1px 1px 0;
   font-family: "basier_circlesemi";
   font-size: $fontSize;
   width: 80%;
@@ -19,7 +19,7 @@
 
 .post_date {
   border-style: solid;
-  border-width: 1px;
+  border-width: 1px 0 1px 1px;
   font-family: "basier_circleregular";
   font-size: $fontSize;
   width: 20%;

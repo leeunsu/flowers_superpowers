@@ -18,7 +18,7 @@ html, html[data-theme="light"] {
 
 html[data-theme="dark"] {
   --background-color: #202020;
-  --light-text-color: rgb(199, 199, 204);
+  --light-text-color: #efedea;
   --link-color: rgb(100, 210, 255);
   --main-background-color: rgb(28, 28, 30);
   --main-text-color: rgb(229, 229, 234);
@@ -27,7 +27,7 @@ html[data-theme="dark"] {
 @media (prefers-color-scheme: dark) {
   html, html[data-theme="dark"] {
   --background-color: #202020;
-  --light-text-color: rgb(199, 199, 204);
+  --light-text-color: #efedea;
   --link-color: rgb(100, 210, 255);
   --main-background-color: rgb(28, 28, 30);
   --main-text-color: rgb(229, 229, 234);
@@ -46,23 +46,7 @@ html[data-theme="dark"] {
 
 
 
-// html {
-//   --background-color: #efedea;
-//   --light-text-color: #202020;
-//   --link-color: rgb(0, 112, 201);
-//   --main-background-color: rgb(255, 255, 255);
-//   --main-text-color: rgb(51, 51, 51);
-// }
 
-// @media (prefers-color-scheme: dark) {
-//   html {
-//     --background-color: #202020;
-//     --light-text-color: rgb(199, 199, 204);
-//     --link-color: rgb(100, 210, 255);
-//     --main-background-color: rgb(28, 28, 30);
-//     --main-text-color: rgb(229, 229, 234);
-//   }
-// }
 
 body {
   background: $backgroundColor;
@@ -76,4 +60,3 @@ body {
 //   border-width: 1px;
 // }
 
-// $backgroundColor: #efedea;
