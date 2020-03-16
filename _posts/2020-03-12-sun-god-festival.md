@@ -8,6 +8,7 @@ image: "/uploads/Hopkins001.jpg"
 gallery:
 - "/uploads/sgfmobile-1.png"
 - "/uploads/SGF19_Poster.png"
+- "/uploads/BOP.png"
 - "/uploads/SunGodRepeat.JPG"
 - "/uploads/lineup.gif"
 - "/uploads/stretch.gif"
