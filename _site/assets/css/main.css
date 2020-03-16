@@ -104,10 +104,12 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .button:hover { background-color: var(--light-text-color); /* Green */ color: var(--background-color); }
 
-.star { display: none; }
+.star { margin: auto; width: 5rem; fill: var(--light-text-color); display: none; }
+
+.eye { width: 5rem; fill: var(--light-text-color); }
 
 @media only screen and (max-width: 728px) { .intro { width: 90%; text-align: left; bottom: 16px; top: initial; font-size: 2rem; position: absolute; -ms-transform: translate(-50%, 0%); transform: translate(-50%, 0%); }
-  .star { display: block; text-align: center; width: 100%; }
+  .star { display: block; text-align: center; }
   .module { font-family: "basier_circlesemi"; display: flex; width: 100%; }
   .module p { padding: 2px 20px 2px 20px; }
   .module2 { display: grid; grid-template-columns: auto; }

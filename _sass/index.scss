@@ -236,7 +236,15 @@ p {
 }
 
 .star {
+  margin: auto;
+  width: 5rem;
+  fill: $bodyColor;
   display: none;
+}
+
+.eye {
+  width: 5rem;
+  fill: $bodyColor;
 }
 
 @media only screen and (max-width: 728px) {
@@ -253,7 +261,6 @@ p {
   .star {
     display: block;
     text-align: center;
-    width: 100%;
   }
 
   .module {
