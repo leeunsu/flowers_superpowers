@@ -10,11 +10,12 @@ categories: []
 tags: []
 image: "/uploads/WTF20_MobilePhone.png"
 gallery:
-- "/uploads/Tfest002-1.png"
 - "/uploads/Tfest001-1.png"
-- "/uploads/Totes-01.png"
+- "/uploads/Tfest002-1.png"
+- "/uploads/WebUX-01.png"
 - "/uploads/WTF20_Thumbnail-01.png"
 - "/uploads/WTF20_PostCard.png"
+- "/uploads/Totes-01.png"
 role: Visual Designer, Developer + Web Designer
 medium: Illustrator, Photoshop, HTML/CSS
 collaborators: ''
