@@ -124,7 +124,7 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
   .projects { padding: 20px; background-color: var(--background-color); }
   .projects img { width: 100%; /* width of container */ height: 250px; /* height of container */ object-fit: cover; } }
 
-@media screen and (min-width: 2400px) { .projects { width: 95%; padding: 20px; border-style: solid; border-width: 0 1px 1px 0px; justify-content: space-evenly; }
+@media screen and (min-width: 2400px) { .projects { padding: 20px; border-style: solid; border-width: 0 1px 1px 0px; justify-content: space-evenly; }
   .projects img { width: 100%; /* width of container */ height: 500px; /* height of container */ object-fit: cover; } }
 
 * { box-sizing: border-box; }
