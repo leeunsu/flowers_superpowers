@@ -14,7 +14,7 @@
 
   a {
     text-decoration: underline;
-    color: #202020;
+    color: $bodyColor;
   }
   a:hover {
     text-decoration: none;
@@ -62,7 +62,7 @@
   width: 100%;
 
   text-align: right;
-  background-color: #202020;
+  background-color: $bodyColor;
   color: white;
 a {
   text-decoration: underline;
@@ -83,7 +83,7 @@ a:hover {
   grid-template-columns: auto auto;
   grid-gap: 1px;
   padding: 0;
-  background-color: #202020;
+  background-color: $bodyColor;
 }
 
 .contact_module {
@@ -100,7 +100,7 @@ p {
   a {
     font-family: "basier_circleregular";
     text-decoration: underline;
-    color: #202020;
+    color: $bodyColor;
   }
   a:hover{
     text-decoration: none;
@@ -113,7 +113,7 @@ p {
   grid-template-columns: auto auto auto;
   grid-gap: 1px;
   padding: 0;
-  background-color: #202020;
+  background-color: $bodyColor;
 }
 .projects {
   padding: 20px;
@@ -220,7 +220,7 @@ p {
   font-family: "Cormorant Garamond", serif;
   background-color: transparent; /* Green */
   border: solid 1px;
-  color: black;
+  color: $bodyColor;
   padding: 8px 24px;
   text-align: center;
   text-decoration: none;
@@ -230,8 +230,8 @@ p {
 }
 
 .button:hover {
-  background-color: #202020; /* Green */
-  color: white;
+  background-color: $bodyColor; /* Green */
+  color: $backgroundColor;
 }
 
 .star {
@@ -276,7 +276,7 @@ p {
     grid-template-columns: auto;
     grid-gap: 1px;
     padding: 0;
-    background-color: #202020;
+    background-color: $bodyColor;
   }
   .projects {
     padding: 20px;
@@ -306,7 +306,7 @@ p {
       grid-template-columns: auto auto;
       grid-gap: 1px;
       padding: 0;
-      background-color: #202020;
+      background-color: $bodyColor;
     }
     .projects {
       padding: 20px;
@@ -379,7 +379,7 @@ $duration: 30s;
   width: 100%;
   overflow: hidden;
   height: 4rem;
-  background-color: rgba(#000, 0.9); 
+  background-color: $bodyColor; 
 
   box-sizing: content-box;
 
@@ -407,7 +407,7 @@ $duration: 30s;
 
       padding: 0 2rem;
       font-size: 2rem;
-      color: white;   
+      color: $backgroundColor;  
 
     }
 

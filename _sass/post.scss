@@ -32,11 +32,11 @@
   padding: 48px 48px 48px 48px;
   font-family: "Cormorant Garamond", serif;
   font-size: 1.5rem;
-  background-color: #202020;
+  background-color: $bodyColor;
   display: flex;
   a {
     text-decoration: none;
-    color: #efedea;
+    color: $backgroundColor;
   }
 }
 
@@ -72,7 +72,7 @@
   grid-template-columns: auto auto;
   grid-gap: 1px;
   padding: 0;
-  background-color: #202020;
+  background-color: $bodyColor;
 }
 .post_gallery {
   padding: 20px;
