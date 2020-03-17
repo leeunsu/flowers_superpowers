@@ -86,7 +86,7 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .about_column_parent p { font-family: "basier_circleregular"; font-size: 0.85rem; line-height: 28px; }
 
-.about_column_parent a { text-decoration: underline; }
+.about_column_parent a { text-decoration: underline; color: var(--light-text-color); }
 
 .about_column_parent a:hover { text-decoration: none; cursor: pointer; }
 
