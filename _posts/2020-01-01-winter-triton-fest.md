@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-01-15 08:00:00 +0000
+date: 2020-01-15T08:00:00.000+00:00
 title: winter triton fest
 about: Winter Triton Fest is UC San Diego’s late night, weekend event series held
   at the beginning of winter quarters. From delicious free food to cultural performances,
@@ -23,5 +23,6 @@ contributions: |-
   The past two Triton Fest events have never revealed a dull moment for me, and this one was no different. Having been given the creative freedom to design the identity of Triton Fest from the ground gave me room to both enjoy my own work as well as criticize and cultivate it.
 
   Special thanks to Ace Antonio and Buu Huynh for giving me this amazing opportunity and letting me run with it for 2 years.
+featured: true
 
 ---
