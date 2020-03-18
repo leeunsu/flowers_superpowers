@@ -78,35 +78,7 @@ a:hover {
   }
 }
 
-.module2 {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 1px;
-  padding: 0;
-  background-color: $bodyColor;
-}
 
-.contact_module {
-  font-family: "basier_circlesemi";
-  padding: 48px 48px 48px 48px;
-  font-size: $fontSize;
-  line-height: 24px;
-  background-color: $backgroundColor;
-p {
-  font-family: "basier_circleregular";
-  padding: none;
-  margin: none;
-}
-  a {
-    font-family: "basier_circleregular";
-    text-decoration: underline;
-    color: $bodyColor;
-  }
-  a:hover{
-    text-decoration: none;
-  }
-
-}
 
 .project_container {
   display: grid;
@@ -272,14 +244,7 @@ p {
       padding: 2px 20px 2px 20px;
     }
   }
-  .module2 {
-    display: grid;
-    grid-template-columns: auto;
-  }
-  .contact_module {
-    font-family: "basier_circlesemi";
-    padding: 20px 20px 20px 20px;
-  }
+
   .project_container {
     display: grid;
     grid-template-columns: auto;

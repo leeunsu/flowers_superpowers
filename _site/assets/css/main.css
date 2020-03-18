@@ -58,16 +58,6 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .module_child_right p { width: 100%; padding: 2px 48px 2px 48px; text-align: right; }
 
-.module2 { display: grid; grid-template-columns: auto auto; grid-gap: 1px; padding: 0; background-color: var(--light-text-color); }
-
-.contact_module { font-family: "basier_circlesemi"; padding: 48px 48px 48px 48px; font-size: 0.85rem; line-height: 24px; background-color: var(--background-color); }
-
-.contact_module p { font-family: "basier_circleregular"; padding: none; margin: none; }
-
-.contact_module a { font-family: "basier_circleregular"; text-decoration: underline; color: var(--light-text-color); }
-
-.contact_module a:hover { text-decoration: none; }
-
 .project_container { display: grid; grid-template-columns: auto auto auto; grid-gap: 1px; padding: 0; background-color: var(--light-text-color); }
 
 .projects { padding: 20px; background-color: var(--background-color); }
@@ -112,8 +102,6 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
   .star { display: block; text-align: center; }
   .module { font-family: "basier_circlesemi"; display: flex; width: 100%; }
   .module p { padding: 2px 20px 2px 20px; }
-  .module2 { display: grid; grid-template-columns: auto; }
-  .contact_module { font-family: "basier_circlesemi"; padding: 20px 20px 20px 20px; }
   .project_container { display: grid; grid-template-columns: auto; grid-gap: 1px; padding: 0; background-color: var(--light-text-color); }
   .projects { padding: 20px; background-color: var(--background-color); }
   .projects img { width: 100%; /* width of container */ height: 200px; /* height of container */ object-fit: cover; }
@@ -200,5 +188,18 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 @media screen and (min-width: 1600px) { .post_gallery { padding: 20px; background-color: var(--background-color); }
   .post_gallery img { height: 700px; /* height of container */ } }
+
+footer { display: grid; grid-template-columns: auto auto; grid-gap: 1px; padding: 0; background-color: var(--light-text-color); }
+
+.footer_module { font-family: "basier_circlesemi"; padding: 48px 48px 48px 48px; font-size: 0.85rem; line-height: 24px; background-color: var(--background-color); }
+
+.footer_module p { font-family: "basier_circleregular"; padding: none; margin: none; }
+
+.footer_module a { font-family: "basier_circleregular"; text-decoration: underline; color: var(--light-text-color); }
+
+.footer_module a:hover { text-decoration: none; }
+
+@media only screen and (max-width: 728px) { footer { display: grid; grid-template-columns: auto; }
+  .footer_module { font-family: "basier_circlesemi"; padding: 20px 20px 20px 20px; } }
 
 /*# sourceMappingURL=main.css.map */
