@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-03-12T07:00:00.000+00:00
+date: 2019-04-27 07:00:00 +0000
 title: sun god festival
 categories: []
 tags: []
