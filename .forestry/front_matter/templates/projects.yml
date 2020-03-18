@@ -63,6 +63,9 @@ fields:
     schema:
       format: markdown
   label: contributions
+- name: featured
+  type: boolean
+  label: featured
 pages:
 - _posts/2019-12-18-mcnair.md
 - _posts/2020-01-01-winter-triton-fest.md
