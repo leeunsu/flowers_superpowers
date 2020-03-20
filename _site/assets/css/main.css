@@ -125,9 +125,9 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 
 .page_nav a { text-decoration: none; color: var(--background-color); }
 
-.prev { text-align: left; display: block; width: 40%; }
+.prev { text-align: left; display: block; width: 100%; }
 
-.next { text-align: right; display: block; width: 40%; }
+.next { text-align: right; display: block; width: 100%; }
 
 .home { align-self: center; font-family: "basier_circlesemi"; font-size: 0.85rem; text-align: center; width: 100%; }
 
@@ -142,6 +142,10 @@ header { display: flex; padding: 32px 0 0 0; position: fixed; top: 0; left: 0; z
 .post_gallery img { width: 100%; /* width of container */ height: 400px; /* height of container */ object-fit: cover; }
 
 .post_module { display: grid; grid-template-columns: auto auto; margin-top: 0px; grid-gap: 0px; padding: 0; }
+
+.post_module a { color: var(--light-text-color); }
+
+.post_module a:hover { text-decoration: none; }
 
 .post_module_child { border-style: solid; border-width: 1px; border-top: none; border-left: none; font-size: 0.8rem; background-color: var(--background-color); }
 

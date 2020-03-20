@@ -34,6 +34,7 @@
   font-size: 1.5rem;
   background-color: $bodyColor;
   display: flex;
+  
   a {
     text-decoration: none;
     color: $backgroundColor;
@@ -43,13 +44,13 @@
 .prev {
   text-align: left;
   display: block;
-  width: 40%;
+  width: 100%;
 }
 
 .next {
   text-align: right;
   display: block;
-  width: 40%;
+  width: 100%;
 }
 
 .home {
@@ -91,6 +92,12 @@
   margin-top: 0px;
   grid-gap: 0px;
   padding: 0;
+  a{
+    color: $bodyColor;
+  }
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 .post_module_child {
