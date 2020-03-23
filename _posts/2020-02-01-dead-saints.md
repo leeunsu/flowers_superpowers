@@ -8,6 +8,8 @@ categories:
 tags: []
 image: "/uploads/deadsaints_1.gif"
 gallery:
+- "/uploads/deadsaints_3.gif"
+- "/uploads/deadsaints_2.gif"
 - "/uploads/deadsaints.gif"
 role: ''
 medium: After Effects, Premiere
