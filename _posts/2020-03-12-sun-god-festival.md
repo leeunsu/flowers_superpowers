@@ -2,7 +2,8 @@
 layout: post
 date: 2020-03-18T07:00:00.000+00:00
 title: sun god festival
-categories: []
+categories:
+- study
 tags: []
 image: "/uploads/Hopkins001.jpg"
 gallery:
