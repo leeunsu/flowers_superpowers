@@ -1,9 +1,10 @@
 ---
 layout: post
-date: 2020-02-01 19:38:00 +0000
+date: 2020-02-01T19:38:00.000+00:00
 title: dead saints
 about: personal kinetic typography study
-categories: []
+categories:
+- personal
 tags: []
 image: "/uploads/ezgif.com-crop.gif"
 gallery: []
