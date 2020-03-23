@@ -6,8 +6,11 @@ about: personal kinetic typography study
 categories:
 - personal
 tags: []
-image: "/uploads/ezgif.com-crop.gif"
-gallery: []
+image: "/uploads/deadsaints_1.gif"
+gallery:
+- "/uploads/deadsaints_3-1.gif"
+- "/uploads/deadsaints_2-1.gif"
+- "/uploads/deadsaints.gif"
 role: ''
 medium: After Effects, Premiere
 collaborators: ''
