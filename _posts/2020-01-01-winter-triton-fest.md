@@ -6,7 +6,8 @@ about: Winter Triton Fest is UC San Diego’s late night, weekend event series h
   at the beginning of winter quarters. From delicious free food to cultural performances,
   from go-kart racing to live music, there’s something for everyone at each Triton
   Fest event.
-categories: []
+categories:
+- study
 tags: []
 image: "/uploads/WTF20_MobilePhone.png"
 gallery:
