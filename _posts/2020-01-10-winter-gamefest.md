@@ -11,7 +11,8 @@ about: Winter GameFest is an annual video game and e-sports event organized by U
   They held 14 tournaments and ample opportunity for drop-in play. Winter GameFest
   has grown to be one of the largest student-run events on campus, and is a premier
   competitive video game event in Southern California.
-categories: []
+categories:
+- study
 tags: []
 image: "/uploads/WGF20_WebThumb-01.png"
 gallery:
