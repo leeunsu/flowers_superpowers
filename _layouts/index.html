@@ -178,11 +178,10 @@
 
     </div>
 
-    <div class="module">
-      <div class="module_child_right">
-        <p><a href="{{{ site.url }}{{ site.baseurl }}/studies">see more ></a></p>
-      </div>
-    </div>
+
+    
+
+
 
 
     <div class="module">
@@ -195,14 +194,8 @@
 
 
     <div class="project_container">
-
-
       {% for post in site.posts limit:3 %}
       {% if post.categories contains "personal" %}
-
-
-
-
       <article class="projects">
         <div class="project_image">
 
@@ -220,22 +213,22 @@
             </a>
           </div>
 
-
-
-
           <div class="project_date">
             <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
           </div>
-
         </div> -->
 
-
       </article>
-
-
       {% endif %}
       {% endfor %}
 
+    </div>
+
+
+    <div class="module">
+      <div class="module_child_right">
+        <p><a href="{{{ site.url }}{{ site.baseurl }}/studies">see all studies ></a></p>
+      </div>
     </div>
 
 
