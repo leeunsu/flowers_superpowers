@@ -26,6 +26,21 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: role
+  type: text
+  config:
+    required: false
+  label: Role
+- name: medium
+  type: text
+  config:
+    required: false
+  label: Medium
+- name: collaborators
+  type: text
+  config:
+    required: false
+  label: Collaborators
 - name: gallery
   type: image_gallery
   config: {}
