@@ -2,6 +2,11 @@
 label: Article
 hide_body: false
 fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
 - name: title
   type: text
   config:
@@ -16,10 +21,9 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- name: layout
-  type: text
-  config:
-    required: false
-  label: layout
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
 pages:
 - _posts/kusudama.md
