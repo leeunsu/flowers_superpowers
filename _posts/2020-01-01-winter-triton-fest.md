@@ -29,8 +29,8 @@ Winter Triton Fest is UC San Diego’s late night, weekend event series held at 
 
 # Contributions
 
-The past two Triton Fest events have never revealed a dull moment for me, and this one was no different. Having been given the creative freedom to design the identity of Triton Fest from the ground gave me room to both enjoy my own work as well as critisize and cultivate it.  
-  
+The past two Triton Fest events have never revealed a dull moment for me, and this one was no different. Having been given the creative freedom to design the identity of Triton Fest from the ground gave me room to both enjoy my own work as well as critisize and cultivate it.
+
 Special thanks to Ace Antonio and Buu Huynh for giving me this amazing oppurtunity and letting me run with it for 2 years.
 
 # Branding
@@ -45,6 +45,4 @@ Special thanks to Ace Antonio and Buu Huynh for giving me this amazing oppurtuni
 
 # UX/UI
 
-![](/uploads/WTF20_MobilePhone.png)
-
-![](/uploads/WebUX-01.png)
+![](/uploads/WTF20_MobilePhone.png)![](/uploads/WebUX-01.png)
