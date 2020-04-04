@@ -8,7 +8,7 @@ footer {
 
 .footer_module {
   font-family: "basier_circlesemi";
-  padding: 48px 48px 48px 48px;
+  padding: $block3;
   font-size: $fontSize;
   line-height: 24px;
   background-color: $backgroundColor;
@@ -34,6 +34,6 @@ footer {
   }
   .footer_module {
     font-family: "basier_circlesemi";
-    padding: 20px 20px 20px 20px;
+    padding: $block;
   }
 }

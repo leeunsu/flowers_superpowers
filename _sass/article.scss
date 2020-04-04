@@ -1,0 +1,133 @@
+// * {
+//   border-style: solid;
+//   border-width: 1px;
+// }
+
+.article_content {
+  width: 70%;
+  margin: auto;
+  grid-template-columns: auto auto;
+  grid-gap: 1px;
+  padding: 0;
+
+
+  img {
+    width: 100%;
+  }
+  h1,
+  h2 {
+    padding-top: $block2;
+    padding-bottom: $block1;
+  }
+  p {
+    padding-bottom: $block2;
+    text-align: justify;
+  }
+  a {
+      color: white;
+  }
+  a:hover {
+      text-decoration: none;
+  }
+}
+
+.article_module {
+  margin-top: $block5;
+  margin-bottom: $block4;
+}
+
+.article_intro {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1px;
+  padding: $block2 0 $block2 0;
+}
+
+.article_title {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 100;
+  font-size: 5rem;
+  margin-bottom: -18px;
+}
+
+.article_date {
+  font-family: "basier_circlesemi";
+  font-weight: 100;
+  font-size: $fontSize;
+  text-transform: uppercase;
+  opacity: 0.3;
+  text-align: right;
+  width: 100%;
+  align-self: flex-end;
+}
+
+.article_gallery_container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.article_gallery {
+  display: inline-block;
+  padding: 0 0 $block2 0;
+  img {
+    height: 400px;
+    width: auto;
+  }
+}
+
+.article_particulars_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1px;
+  :nth-child(3) {
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 728px) {
+  .article_content {
+    h1,
+    h2 {
+      padding: $block2 0 $block1 0;
+    }
+    p {
+      padding: 0 0 $block2 0;
+    }
+  }
+
+  .article_module {
+    margin-top: $block5;
+    margin-bottom: $block3;
+  }
+
+  .article_intro {
+    display: grid;
+    grid-template-columns: auto;
+
+    padding: 0px 0 0px 0;
+  }
+
+  .article_title {
+
+    font-size: 4rem;
+  }
+
+  .article_date {
+    text-align: left;
+    line-height: 1.8rem;
+    padding: 24px 0 0 0;
+  }
+  .article_content {
+    width: 90%;
+  }
+
+  .article_particulars_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1px;
+    :nth-child(3) {
+      text-align: left;
+    }
+  }
+}

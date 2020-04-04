@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} — {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+</head>
+
+<body>
+
+    {% include header.html %}
+
+
+    <div class="side_text_left">오늘 걷지 않으면</div>
+    <div class="side_text_right">내일은 뛰어야 한다</div>
+
+
+    <div class="article_module">
+        <div class="article_content">
+
+            <div class="article_intro">
+                <div class="article_title"> {{ page.title | escape }}</div>
+                <div class="article_date">
+
+
+
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                        {{ page.date | date: date_format }}
+                    </time>
+                    {%- if page.modified_date -%}
+                    ~
+                    {%- assign mdate = page.modified_date | date_to_xmlschema -%}
+                    <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+                        {{ mdate | date: date_format }}
+                    </time>
+                    {%- endif -%}
+
+
+
+                </div>
+            </div>
+
+            <div class="article_gallery_container">
+                {% for image in page.gallery %}
+                <div class="article_gallery">
+                    <img src="{{ image | relative_url }}">
+                </div>
+                {% endfor %}
+            </div>
+
+
+            {{ content}}
+
+
+            <div class="article_particulars_container">
+
+                {% if page.role %}
+                <div class="article_particulars">
+                    <h1>Role</h1>
+                    <p>         {{ page.role }}</p>
+                </div>
+                {% endif %}
+
+                {% if page.medium %}
+                <div class="article_particulars">
+                    <h1>Mediums</h1>
+                    <p>         {{ page.medium }}</p>
+                </div>
+                {% endif %}
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="page_nav">
+        {% if page.previous.url %}
+        <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">
+            < {{page.previous.title}}</a>
+                {% endif %}
+
+                {% if page.next.url %}
+                <a class="next" href="{{site.baseurl}}{{page.next.url}}">{{page.next.title}} ></a>
+                {% endif %}
+    </div>
+
+
+
+    {% include footer.html %}
+
+
+
+    {% include analytics.html %}
+
+</body>
+
+</html>
