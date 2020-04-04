@@ -46,5 +46,4 @@ fields:
   config: {}
   label: Gallery
 pages:
-- _posts/kusudama.md
-- _posts/material-science-engineering.md
+- _posts/2020-01-01-winter-triton-fest.md
