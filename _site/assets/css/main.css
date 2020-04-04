@@ -194,6 +194,8 @@ footer { display: grid; grid-template-columns: auto auto; grid-gap: 1px; padding
 
 .article_content { width: 70%; margin: auto; grid-template-columns: auto auto; grid-gap: 1px; padding: 0; }
 
+.article_content iframe { width: 100%; height: 600px; }
+
 .article_content img { width: 100%; }
 
 .article_content h1, .article_content h2 { padding-top: 32px; padding-bottom: 8px; }
@@ -212,7 +214,7 @@ footer { display: grid; grid-template-columns: auto auto; grid-gap: 1px; padding
 
 .article_date { font-family: "basier_circlesemi"; font-weight: 100; font-size: 0.9rem; text-transform: uppercase; opacity: 0.3; text-align: right; width: 100%; align-self: flex-end; }
 
-.article_gallery_container { overflow-x: scroll; overflow-y: hidden; white-space: nowrap; }
+.article_gallery_container { overflow-x: scroll; overflow-y: hidden; white-space: nowrap; position: relative; left: 0; }
 
 .article_gallery { display: inline-block; padding: 0 0 32px 0; }
 
@@ -222,7 +224,8 @@ footer { display: grid; grid-template-columns: auto auto; grid-gap: 1px; padding
 
 .article_particulars_container :nth-child(3) { text-align: right; }
 
-@media only screen and (max-width: 728px) { .article_content h1, .article_content h2 { padding: 32px 0 8px 0; }
+@media only screen and (max-width: 728px) { .article_content iframe { width: 100%; height: 250px; }
+  .article_content h1, .article_content h2 { padding: 32px 0 8px 0; }
   .article_content p { padding: 0 0 32px 0; }
   .article_module { margin-top: 192px; margin-bottom: 64px; }
   .article_intro { display: grid; grid-template-columns: auto; padding: 0px 0 0px 0; }
