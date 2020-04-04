@@ -202,7 +202,7 @@ footer { display: grid; grid-template-columns: auto auto; grid-gap: 1px; padding
 
 .article_content p { padding-bottom: 32px; text-align: justify; }
 
-.article_content a { color: white; }
+.article_content a { color: var(--light-text-color); }
 
 .article_content a:hover { text-decoration: none; }
 
