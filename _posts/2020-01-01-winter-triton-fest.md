@@ -23,9 +23,7 @@ featured: true
 ---
 # Intro
 
-Winter Triton Fest is UC San Diego’s late night, weekend event series held at the beginning of winter quarters. From delicious free food to cultural performances, from go-kart racing to live music, there’s something for everyone at each Triton Fest event.
-
-![](/uploads/WTF20_Thumbnail-01.png)
+Winter Triton Fest is UC San Diego’s late night, weekend event series held at the beginning of winter quarters. From delicious free food to cultural performances, from go-kart racing to live music, there’s something for everyone at each Triton Fest event.![](/uploads/WTF20_Thumbnail-01.png)
 
 # Contributions
 
@@ -33,16 +31,6 @@ The past two Triton Fest events have never revealed a dull moment for me, and th
 
 Special thanks to Ace Antonio and Buu Huynh for giving me this amazing oppurtunity and letting me run with it for 2 years.
 
-# Branding
+# Branding![](/uploads/Tfest002-1.png)![](/uploads/Tfest001-1.png)![](/uploads/WTF20_PostCard.png)![](/uploads/WTF20_OmgTotes-01.png)
 
-![](/uploads/Tfest002-1.png)
-
-![](/uploads/Tfest001-1.png)
-
-![](/uploads/WTF20_PostCard.png)
-
-![](/uploads/WTF20_OmgTotes-01.png)
-
-# UX/UI
-
-![](/uploads/WTF20_MobilePhone.png)![](/uploads/WebUX-01.png)
+# UX/UI![](/uploads/WTF20_MobilePhone.png)![](/uploads/WebUX-01.png)
