@@ -19,8 +19,4 @@ featured: false
 
 Personal kinetic typography study
 
-![](/uploads/deadsaints.gif)
-
-![](/uploads/deadsaints_2-1.gif)
-
-![](/uploads/deadsaints_3-1.gif)
+![](/uploads/deadsaints.gif)![](/uploads/deadsaints_2-1.gif)![](/uploads/deadsaints_3-1.gif)
