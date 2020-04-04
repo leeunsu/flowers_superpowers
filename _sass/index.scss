@@ -30,6 +30,7 @@
   margin-top: 100vh;
   min-height: 100px;
   background-color: $backgroundColor;
+  grid-gap: $block3;
 }
 
 .module {
@@ -48,6 +49,7 @@
   width: 100%;
   border-style: solid;
   border-width: 1px 0 1px 0;
+
   p {
     padding: 2px 16px 2px $block3;
   }
@@ -81,8 +83,10 @@
   grid-gap: 1px;
   padding: 0;
   background-color: $bodyColor;
+
 }
 .projects {
+
   padding: $block1;
   background-color: $backgroundColor;
 
@@ -94,10 +98,12 @@
 }
 
 .project_info {
+  z-index: 2;
   display: flex;
 }
 
 .project_title {
+  z-index: 2;
   width: 100%;
   line-height: $block3;
   text-align: center;
@@ -123,9 +129,9 @@
 .about_column_parent {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: $block3;
   padding: 0;
   text-align: justify;
+  z-index: 2;
   p {
     font-family: "basier_circleregular";
     font-size: $fontSize;

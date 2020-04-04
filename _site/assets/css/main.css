@@ -46,7 +46,7 @@ header { display: flex; padding: 32px 0 32px 0; position: fixed; top: 0; width: 
 
 .intro sup { font-size: 1.2rem; text-align: center; }
 
-.content { margin-top: 100vh; min-height: 100px; background-color: var(--background-color); }
+.content { margin-top: 100vh; min-height: 100px; background-color: var(--background-color); grid-gap: 64px; }
 
 .module { font-family: "basier_circlesemi"; display: flex; width: 100%; }
 
@@ -70,15 +70,15 @@ header { display: flex; padding: 32px 0 32px 0; position: fixed; top: 0; width: 
 
 .projects img { width: 100%; /* width of container */ height: 300px; /* height of container */ object-fit: cover; }
 
-.project_info { display: flex; }
+.project_info { z-index: 2; display: flex; }
 
-.project_title { width: 100%; line-height: 64px; text-align: center; border-style: solid; border-width: 1px; }
+.project_title { z-index: 2; width: 100%; line-height: 64px; text-align: center; border-style: solid; border-width: 1px; }
 
 .project_title a { font-family: "basier_circlesemi"; font-size: 0.9rem; text-decoration: none; }
 
 .project_date { font-family: "basier_circleregular"; font-size: 0.9rem; width: 35%; border-style: solid; border-width: 1px; vertical-align: middle; text-align: center; }
 
-.about_column_parent { display: grid; grid-template-columns: auto auto; grid-gap: 64px; padding: 0; text-align: justify; }
+.about_column_parent { display: grid; grid-template-columns: auto auto; padding: 0; text-align: justify; z-index: 2; }
 
 .about_column_parent p { font-family: "basier_circleregular"; font-size: 0.9rem; line-height: 28px; }
 
