@@ -46,6 +46,7 @@ fields:
   config: {}
   label: Gallery
 pages:
+- _posts/2019-12-18-mcnair.md
 - _posts/2020-01-01-winter-triton-fest.md
 - _posts/2020-01-10-winter-gamefest.md
 - _posts/2020-02-01-dead-saints.md
