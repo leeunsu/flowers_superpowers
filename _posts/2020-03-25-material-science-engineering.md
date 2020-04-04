@@ -13,7 +13,7 @@ gallery: []
 
 Materials Science and Engineering is concerned with the structure, properties and applications of materials. The university-wide Materials Science and Engineering Program at UCSD aims to provide fundamental knowledge for understanding of materials with the objective of predicting, modifying, and tailoring the properties of materials to yield enhanced material performance.
 
-![](/uploads/\[MSE\]BlenderMockup.png)
+![](/uploads/MSE_BlenderMockup.png)
 
 ![](/uploads/MSE_Screenshot.png)
 
