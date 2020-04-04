@@ -1,7 +1,7 @@
 ---
 layout: article
 date: 2020-02-01T19:38:00.000+00:00
-title: dead saints
+title: Dead Saints
 about: personal kinetic typography study
 categories:
 - personal
