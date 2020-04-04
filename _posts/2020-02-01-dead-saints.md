@@ -7,10 +7,7 @@ categories:
 - personal
 tags: []
 image: "/uploads/deadsaints_1.gif"
-gallery:
-- "/uploads/deadsaints_3-1.gif"
-- "/uploads/deadsaints_2-1.gif"
-- "/uploads/deadsaints.gif"
+gallery: []
 role: ''
 medium: After Effects, Premiere
 collaborators: ''

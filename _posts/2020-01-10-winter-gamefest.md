@@ -15,9 +15,7 @@ categories:
 - study
 tags: []
 image: "/uploads/WGF20_WebThumb-01.png"
-gallery:
-- "/uploads/WGF20_WebThumb-01.png"
-- "/uploads/WGF20_MANDE.JPG"
+gallery: []
 role: Visual Designer
 medium: Illustrator
 collaborators: ''
