@@ -129,6 +129,7 @@
 .about_column_parent {
   display: grid;
   grid-template-columns: auto auto;
+  grid-gap: $block3;
   padding: 0;
   text-align: justify;
   z-index: 2;
