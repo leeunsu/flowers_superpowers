@@ -111,7 +111,7 @@ header { display: flex; padding: 32px 0 32px 0; position: fixed; top: 0; width: 
 
 @media only screen and (max-width: 728px) { .intro { width: 90%; text-align: left; bottom: 16px; top: initial; font-size: 2rem; position: absolute; -ms-transform: translate(-50%, 0%); transform: translate(-50%, 0%); }
   .star { display: block; text-align: center; }
-  .module { margin-top: 32px; font-family: "basier_circlesemi"; display: flex; width: 100%; }
+  .module { font-family: "basier_circlesemi"; display: flex; width: 100%; }
   .module p { padding: 2px 20px 2px 20px; }
   .project_container { display: grid; grid-template-columns: auto; grid-gap: 1px; padding: 0; background-color: var(--light-text-color); }
   .projects { padding: 20px; background-color: var(--background-color); }
