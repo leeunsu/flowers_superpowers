@@ -23,7 +23,7 @@ The initial logo was sketched out by the Editor-in-Chief, Nicole Lopez. With thi
 
 The main type used throughout the branding is the Baiser family by Apito Foundry. Its diverse collection of fonts has been used as both H1 headers as well as H3 and H4. The clean design paved the way for a bolder, more flourishing text: Ogg Italic. Ogg Italic fills the space of the H2 header, coupling with Basier Regular to evoke a more literary-forward design.
 
-![](/uploads/2A7A12C6-31FB-4E78-A103-BEDDE78AE61E.JPG)
+![](/uploads/2A7A12C6-31FB-4E78-A103-BEDDE78AE61E.JPG)![](/uploads/A3D1F817-B3DB-4B34-831A-18020155E577 2.JPG)
 
 # UX/UI
 
@@ -34,5 +34,7 @@ One objective of this design was for the code environment to be modular. In doin
 Another objective of this design was for the usability to be focused on readers. The idea of the minimal/brutalist design was to create a space that would spotlight attention to the contributions (the literature and art). It allows for minimal distractions and focuses on readership and viewership. As a perk, at the bottom right of the screen is a fixed toggle for light and dark mode. This is also defaulted to the user's default device setting (in case they already have a preference).
 
 Though the frontend was design to be barebones, the code for the blog was written from the ground up, creating a website that groups and categorizes the contributions into its respective poetry, fiction, nonfiction, and visual art containers.
+
+![](/uploads/C987B3A2-FBF4-4183-B067-B7CC1D956B87 2.jpg)
 
 ![](/uploads/730014EB-2EB9-44B0-96F8-D8D80489FCA9.JPG)
