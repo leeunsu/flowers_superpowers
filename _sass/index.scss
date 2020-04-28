@@ -26,6 +26,18 @@
   }
 }
 
+.content,
+.module,
+.module_child,
+.project_container,
+.about_column_parent,
+.overlay,
+.about_module,
+.about_content,
+.projects {
+  z-index: 1;
+}
+
 .content {
   margin-top: 100vh;
   min-height: 100px;
@@ -83,10 +95,8 @@
   grid-gap: 1px;
   padding: 0;
   background-color: $bodyColor;
-
 }
 .projects {
-
   padding: $block1;
   background-color: $backgroundColor;
 

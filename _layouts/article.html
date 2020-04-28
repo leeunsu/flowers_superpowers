@@ -43,16 +43,8 @@
                 </div>
             </div>
 
-            <div class="article_gallery_container">
-                {% for image in page.gallery %}
-                <div class="article_gallery">
-                    <img src="{{ image | relative_url }}">
-                </div>
-                {% endfor %}
-            </div>
 
 
-            {{ content}}
 
 
             <div class="article_particulars_container">
@@ -74,6 +66,15 @@
 
 
             </div>
+
+
+
+
+
+            {{ content}}
+
+
+          
 
 
         </div>
