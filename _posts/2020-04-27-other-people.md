@@ -1,6 +1,6 @@
 ---
 layout: article
-image: "/uploads/B6284E75-142C-4622-9481-A17F3BEF0D59.JPG"
+image: "/uploads/C987B3A2-FBF4-4183-B067-B7CC1D956B87 2.jpg"
 title: Other People
 date: 2020-04-27 07:00:00 +0000
 role: Creative Co-Director
