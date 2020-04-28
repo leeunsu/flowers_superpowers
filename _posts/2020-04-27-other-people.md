@@ -11,6 +11,10 @@ gallery: []
 ---
 # Intro
 
+As both a writer and a designer, a project in co-directing design for a newfound literary magazine meant a lot to me. It gave me an opportunity to be a part of something that I truly loved doing in all its facets. Also, having that binary of literature and design enabled me to extrapolate and expand both fields in parallel while finding new ways to weave them together.
+
+# Logo
+
 The initial logo was sketched out by the Editor-in-Chief, Nicole Lopez. With this sketch, it was simple to create a clean, balanced logo that would translate well into different sizes and forms. A total of four were finalized into the final branding.
 
 ![](/uploads/B6284E75-142C-4622-9481-A17F3BEF0D59-1.JPG)![](/uploads/EBFC5849-A23F-4000-9E2A-A1C96A405899.JPG)
