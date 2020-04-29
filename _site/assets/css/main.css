@@ -30,7 +30,7 @@ header { display: flex; padding: 32px 0 32px 0; position: fixed; top: 0; width: 
 
 .side_text_right { font-family: "basier_circleregular"; font-size: 0.9rem; margin: 0; position: fixed; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); transform: rotate(90deg); right: 8px; text-align: center; z-index: -1; }
 
-@media only screen and (max-width: 728px) { header { display: flex; padding: 32px 0 0 0; width: 100%; }
+@media only screen and (max-width: 728px) { header { display: flex; padding: 16px 0 0 30px; width: 100%; }
   .side_text_left, .side_text_right { display: none; }
   .block_child :nth-child(3) { display: none; } }
 
@@ -215,7 +215,7 @@ footer { display: grid; grid-template-columns: auto auto; grid-gap: 1px; padding
 
 .article_intro { display: grid; grid-template-columns: auto auto; grid-gap: 1px; padding: 32px 0 64px 0; }
 
-.article_title { font-family: "Cormorant Garamond", serif; font-weight: 100; font-size: 6rem; line-height: 6rem; margin-bottom: -18px; margin-left: -5px; }
+.article_title { font-family: "Cormorant Garamond", serif; font-weight: 100; font-size: 6rem; line-height: 6rem; margin-bottom: -18px; margin-left: -5px; hyphens: auto; overflow: none; }
 
 .article_date { font-family: "basier_circlesemi"; font-weight: 100; font-size: 0.9rem; text-transform: uppercase; opacity: 0.3; text-align: right; width: 100%; align-self: flex-end; }
 
@@ -230,7 +230,7 @@ footer { display: grid; grid-template-columns: auto auto; grid-gap: 1px; padding
   .article_content a:hover { text-decoration: none; }
   .article_module { margin-top: 192px; margin-bottom: 32px; }
   .article_intro { display: grid; grid-template-columns: auto; padding: 0px 0 64px 0; }
-  .article_title { font-size: 6rem; line-height: 6rem; }
+  .article_title { font-size: 4rem; line-height: 4rem; }
   .article_date { text-align: left; line-height: 1.8rem; padding: 24px 0 0 0; }
   .article_content { width: 90%; }
   .article_particulars_container { display: grid; grid-template-columns: 1fr; grid-gap: 1px; text-align: left; }
