@@ -109,7 +109,7 @@ header { z-index: -1; }
 
 .eye { width: 8rem; fill: var(--light-text-color); }
 
-@media only screen and (max-width: 728px) { .intro { width: 90%; text-align: left; bottom: 16px; top: initial; font-size: 2rem; position: absolute; -ms-transform: translate(-50%, 0%); transform: translate(-50%, 0%); }
+@media only screen and (max-width: 728px) { .intro { width: 90%; text-align: left; bottom: 80px; top: initial; font-size: 2rem; position: absolute; -ms-transform: translate(-50%, 0%); transform: translate(-50%, 0%); }
   .star { display: block; text-align: center; }
   .module { font-family: "basier_circlesemi"; display: flex; width: 100%; }
   .module p { padding: 2px 20px 2px 20px; }
@@ -120,7 +120,9 @@ header { z-index: -1; }
   .about_module { height: auto; border-style: solid; border-width: 1px 0 1px 0; border-top: none; }
   .about_content { width: 90%; padding: 128px 0 128px 0; top: 0; left: 0; -ms-transform: none; transform: none; margin: auto; } }
 
-@media only screen and (max-width: 1024px) and (min-width: 729px) { .intro { width: 90%; text-align: left; bottom: 32px; top: initial; font-size: 2rem; position: absolute; text-align: center; -ms-transform: translate(-50%, 0%); transform: translate(-50%, 0%); }
+@media only screen and (max-device-width: 320px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) { .star { width: 7rem; display: none; text-align: center; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .intro { width: 90%; text-align: left; bottom: 80px; top: initial; font-size: 2rem; position: absolute; text-align: center; -ms-transform: translate(-50%, 0%); transform: translate(-50%, 0%); }
   .star { width: 7rem; display: block; text-align: center; }
   .eye { margin: auto; }
   .about_module { height: auto; border-style: solid; border-width: 1px 0 1px 0; border-top: none; }
@@ -136,6 +138,8 @@ header { z-index: -1; }
 .first { width: 50px; cursor: pointer; position: absolute; bottom: 12px; left: 50%; transform: translate(-50%, -50%); opacity: 0.3; fill: none; stroke: var(--light-text-color); stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; }
 
 .first:hover { opacity: 1; transition: 0.2s ease; bottom: 8px; }
+
+@media (orientation: landscape) { .star { display: none; } }
 
 .post_content { margin-top: 112px; display: flex; width: 100%; grid-template-columns: auto auto; grid-gap: 1px; padding: 0; background-color: var(--background-color); }
 

@@ -221,7 +221,7 @@
   .intro {
     width: 90%;
     text-align: left;
-    bottom: 16px;
+    bottom: 80px;
     top: initial;
     font-size: 2rem;
     position: absolute;
@@ -284,11 +284,20 @@
   }
 }
 
+@media only screen and (max-device-width: 320px),
+  only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+  .star {
+    width: 7rem;
+    display: none;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
   .intro {
     width: 90%;
     text-align: left;
-    bottom: $block2;
+    bottom: 80px;
     top: initial;
     font-size: 2rem;
     position: absolute;
@@ -387,3 +396,12 @@
   transition: 0.2s ease;
   bottom: 8px;
 }
+
+@media (orientation: landscape) {
+  .intro {
+  }
+  .star {
+    display: none;
+  }
+}
+
