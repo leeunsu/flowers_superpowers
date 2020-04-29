@@ -3,7 +3,7 @@
 //   border-width: 1px;
 // }
 
-header {
+header, .header_article {
   display: flex;
   padding: $block2 0 $block2 0;
   position: fixed;
@@ -11,6 +11,11 @@ header {
   width: 70%;
   left: 50%;
   transform: translate(-50%, 0);
+
+}
+
+header {
+  z-index: -1;
 }
 
 .block {
@@ -74,9 +79,9 @@ header {
 }
 
 @media only screen and (max-width: 728px) {
-  header {
+  header, .header_article {
     display: flex;
-    padding: 16px 0 0 30px;
+    padding: 16px 0 0 25px;
     width: 100%;
   }
   .side_text_left,
@@ -89,7 +94,7 @@ header {
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
-  header {
+  header, .header_article {
 
     width: 90%;
   }
