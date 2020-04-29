@@ -291,13 +291,14 @@
     text-align: left;
     bottom: $block2;
     top: initial;
-    font-size: 3rem;
+    font-size: 2rem;
     position: absolute;
-    text-align: justify;
+    text-align: center;
     -ms-transform: translate(-50%, -0%);
     transform: translate(-50%, -0%);
   }
   .star {
+    width: 7rem;
     display: block;
     text-align: center;
   }

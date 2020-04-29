@@ -8,22 +8,40 @@ footer {
 
 .footer_module {
   font-family: "basier_circlesemi";
-  padding: $block3;
+  padding: $block2;
   font-size: $fontSize;
   line-height: 24px;
   background-color: $backgroundColor;
+
+
+  a {
+    text-decoration: $bodyColor;
+    color: $bodyColor;
+  }
+
   p {
     font-family: "basier_circleregular";
-    padding: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+    font-size: .9rem;
   }
-  a {
+  p a {
     font-family: "basier_circleregular";
     text-decoration: underline;
     color: $bodyColor;
   }
-  a:hover {
+  p a:hover {
     text-decoration: none;
+  }
+
+  h3 {
+    font-family: "basier_circlesemi";
+    font-size: $fontSize;
+    text-decoration: none !important;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
   }
 }
 
