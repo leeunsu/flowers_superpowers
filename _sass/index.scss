@@ -266,7 +266,6 @@
     text-align: justify;
   }
 
-
   .about_module {
     height: auto;
 
@@ -363,4 +362,28 @@
       object-fit: cover;
     }
   }
+}
+
+.first {
+  width: 50px;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 12px;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+  fill: none;
+  stroke: $bodyColor;
+  stroke-width: 15;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.first:hover {
+  opacity: 1;
+  transition: 0.2s ease;
+  bottom: 8px;
 }

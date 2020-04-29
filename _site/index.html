@@ -12,19 +12,20 @@
 <body>
 
 
+
 	<header>
     <div class="block"></div>
     <div class="block"></div>
-    
 
-    
+
+
     <div class="block">
         <a href="http://localhost:4000">eunsoo lee</a>
-        <div class="block_child"><a href="http://localhost:4000">home</a><a href="/studies">studies</a><a id="theme-toggle" onclick="modeSwitcher()"></a></div>
+        <div class="block_child"><a href="http://localhost:4000">home</a>
+            <a href="/studies">studies</a>
+            <a id="theme-toggle" onclick="modeSwitcher()"></a></div>
     </div>
 </header>
-
-
 	
 
 
@@ -805,20 +806,37 @@
 
 
 			<br><br></div>
+
 		Storytelling — designing ­— deconstructing from La Jolla, CA. <sup>current</sup> <i>Co-Director of Design</i> at
 		<a href="https://otherpeoplesd.com/" target="blank">Other People</a>. <sup>previous</sup> <i>Visual Design</i>
 		at <a href="https://asgraphicstudio.ucsd.edu/" target="blank">A.S. Graphic Studio</a>.
+
 	</div>
+
+	<div class="first">
+		<div type="button" onclick="smoothScroll(document.getElementById('second'))">
+			<?xml version="1.0" encoding="utf-8"?>
+			<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+				y="0px" viewBox="0 0 446.2 195.4" style="enable-background:new 0 0 446.2 195.4;" xml:space="preserve">
+				<style type="text/css">
+		
+				</style>
+				<polyline class="st0" points="414.6,31 223.1,164.5 31.6,31 " />
+			</svg>
+	</div>
+</div>
 
 
 
 	<div class="side_text_left">오늘 걷지 않으면</div>
 	<div class="side_text_right">내일은 뛰어야 한다</div>
-
 	<div class="content">
 
 
 		<div class="module">
+
+			<div class="second" id="second"></div>
 			<div class="module_child">
 				<p>recent studies</p>
 			</div>
@@ -827,11 +845,21 @@
 
 
 
-
-
+	
 
 		<!-- HELLO -->
+
+
+
+
+
+
+
 		<div class="project_container">
+
+
+
+
 
 
 			
@@ -2077,7 +2105,30 @@ if (theme === "dark") {
 
 
 
-
+<script>
+window.smoothScroll = function(target) {
+    var scrollContainer = target;
+    do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+    
+    var targetY = 0;
+    do { //find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+    
+    scroll = function(c, a, b, i) {
+        i++; if (i > 10) return;
+        c.scrollTop = a + (b - a) / 10 * i;
+        setTimeout(function(){ scroll(c, a, b, i); }, 20);
+    }
+    // start scrolling
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+}
+</script>
 
 
 

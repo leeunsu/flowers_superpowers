@@ -133,6 +133,10 @@ header { z-index: -1; }
 @media screen and (min-width: 2400px) { .projects { padding: 20px; border-style: solid; border-width: 0 1px 1px 0px; justify-content: space-evenly; }
   .projects img { width: 100%; /* width of container */ height: 500px; /* height of container */ object-fit: cover; } }
 
+.first { width: 50px; cursor: pointer; position: absolute; bottom: 12px; left: 50%; transform: translate(-50%, -50%); opacity: 0.3; fill: none; stroke: var(--light-text-color); stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; }
+
+.first:hover { opacity: 1; transition: 0.2s ease; bottom: 8px; }
+
 .post_content { margin-top: 112px; display: flex; width: 100%; grid-template-columns: auto auto; grid-gap: 1px; padding: 0; background-color: var(--background-color); }
 
 .post_title { border-style: solid; border-width: 1px 1px 1px 0; font-family: "basier_circlesemi"; font-size: 0.9rem; width: 80%; padding: 16px 16px 16px 64px; }
@@ -230,7 +234,7 @@ footer { display: grid; grid-template-columns: auto auto; grid-gap: 1px; padding
 
 .article_title { font-family: "Cormorant Garamond", serif; font-weight: 100; font-size: 6rem; line-height: 6rem; margin-bottom: -18px; margin-left: -5px; hyphens: auto; overflow: none; }
 
-.article_date { font-family: "basier_circlesemi"; font-weight: 100; font-size: 0.9rem; text-transform: uppercase; opacity: 0.3; text-align: right; width: 100%; align-self: flex-end; }
+.article_date { font-family: "basier_circlesemi"; font-weight: 100; font-size: 0.9rem; text-transform: uppercase; opacity: 0.3; text-align: right; width: 100%; align-self: flex-end; margin-bottom: -6px; }
 
 .article_particulars_container { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 1px; text-align: left; }
 

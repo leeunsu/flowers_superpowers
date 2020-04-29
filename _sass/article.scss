@@ -70,6 +70,7 @@
   text-align: right;
   width: 100%;
   align-self: flex-end;
+  margin-bottom: -6px;
 }
 
 .article_particulars_container {
@@ -77,6 +78,9 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1px;
   text-align: left;
+
+
+
   :nth-child(3) {
     text-align: right;
   }
@@ -157,3 +161,12 @@
     width: 90%;
   }
 }
+
+
+
+
+
+
+
+
+
