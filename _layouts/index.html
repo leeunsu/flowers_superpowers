@@ -11,14 +11,8 @@
 
 <body>
 
-
-
 	{% include header.html %}
 	{{ content}}
-
-
-
-
 
 	<div class="intro">
 		<div class="star">
@@ -804,56 +798,31 @@
 		<div type="button" onclick="smoothScroll(document.getElementById('second'))">
 			<?xml version="1.0" encoding="utf-8"?>
 			<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-				y="0px" viewBox="0 0 446.2 195.4" style="enable-background:new 0 0 446.2 195.4;" xml:space="preserve">
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 446.2 195.4"
+				style="enable-background:new 0 0 446.2 195.4;" xml:space="preserve">
 				<style type="text/css">
-		
+
 				</style>
 				<polyline class="st0" points="414.6,31 223.1,164.5 31.6,31 " />
 			</svg>
+		</div>
 	</div>
-</div>
-
-
 
 	<div class="side_text_left">오늘 걷지 않으면</div>
 	<div class="side_text_right">내일은 뛰어야 한다</div>
 	<div class="content">
-
-
 		<div class="module">
-
-			<div class="second" id="second"></div>
+		<div class="second" id="second"></div>
 			<div class="module_child">
 				<p>recent studies</p>
 			</div>
 		</div>
 
-
-
-
-	
-
 		<!-- HELLO -->
 
-
-
-
-
-
-
 		<div class="project_container">
-
-
-
-
-
-
 			{% for post in site.posts limit:3 %}
-
-
-
-
 			<article class="projects">
 				<div class="project_image">
 
@@ -864,36 +833,10 @@
 					</div>
 
 				</div>
-				<!-- <div class="project_info">
-      <div class="project_title">
-        <a href="{{site.baseurl}}{{ post.url }}">
-          {{ post.title }}
-        </a>
-      </div>
-
-
-
-
-      <div class="project_date">
-        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-      </div>
-
-    </div> -->
-
-
 			</article>
-
-
 			{% endfor %}
-
 		</div>
 		<!-- HELLO -->
-
-
-
-
-
-
 
 		<div class="module">
 			<div class="module_child_right">
@@ -912,11 +855,9 @@
 		</div>
 
 		<div class="about_module">
+
 			<div class="about_content">
-
 				<div class="eye">
-
-
 					<?xml version="1.0" encoding="utf-8"?>
 					<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
@@ -1877,95 +1818,59 @@
 
 
 				</div>
-
-
-
-
 				<div class="about_column_parent">
-
 					<div class="about_column">
-
-
 						<p> Hello! I am a writer/designer that currently lives in La Jolla, CA. Much of my development
 							as an artist has come from weaving together good principles and practices of literature and
 							visual art. During my experiences, I have had the opportunity to design for festivals,
-							magazines, and companies. Much of my work strives to be human-centered and locally-focused, designed to bring out the best of what surrounds it.
-
-	</p>
+							magazines, and companies. Much of my work strives to be human-centered and locally-focused,
+							designed to bring out the best of what surrounds it.
+						</p>
 					</div>
-
-
 					<div class="about_column">
-
-
-						<p> 						I am currently the <i>Co-Director of Design</i> at <a href="https://otherpeoplesd.com/"
-							target="blank">Other People</a>, working with a team of amazing people to create UC San Diego's first literary magazine.</p>
-
-
-
+						<p> I am currently the <i>Co-Director of Design</i> at <a href="https://otherpeoplesd.com/"
+								target="blank">Other People</a>, working with a team of amazing people to create UC San
+							Diego's first literary magazine.</p>
 						<p>In my free time I like to write, hike, go to farmer’s markets, or go out with my friends. I
 							am also a dog person and a tea lover. 🐶🍵</p>
 					</div>
-
 				</div>
 
 				<a href="https://drive.google.com/file/d/1Kh2EHIaYiCcwC3K4Fc-h4eYYv4jlUVw8/view?usp=sharing"
 					class="button" target="blank">
 					resume
 				</a>
-
 			</div>
 		</div>
 
-
-
-
-
-
-
 		{% include footer.html %}
-
-
 
 	</div>
 
+	<script>
+		window.smoothScroll = function (target) {
+			var scrollContainer = target;
+			do { //find scroll container
+				scrollContainer = scrollContainer.parentNode;
+				if (!scrollContainer) return;
+				scrollContainer.scrollTop += 1;
+			} while (scrollContainer.scrollTop == 0);
 
+			var targetY = 0;
+			do { //find the top of target relatively to the container
+				if (target == scrollContainer) break;
+				targetY += target.offsetTop;
+			} while (target = target.offsetParent);
 
-
-
-
-
-
-<script>
-window.smoothScroll = function(target) {
-    var scrollContainer = target;
-    do { //find scroll container
-        scrollContainer = scrollContainer.parentNode;
-        if (!scrollContainer) return;
-        scrollContainer.scrollTop += 1;
-    } while (scrollContainer.scrollTop == 0);
-    
-    var targetY = 0;
-    do { //find the top of target relatively to the container
-        if (target == scrollContainer) break;
-        targetY += target.offsetTop;
-    } while (target = target.offsetParent);
-    
-    scroll = function(c, a, b, i) {
-        i++; if (i > 10) return;
-        c.scrollTop = a + (b - a) / 10 * i;
-        setTimeout(function(){ scroll(c, a, b, i); }, 20);
-    }
-    // start scrolling
-    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-}
-</script>
-
-
-
-
-
-
+			scroll = function (c, a, b, i) {
+				i++; if (i > 10) return;
+				c.scrollTop = a + (b - a) / 10 * i;
+				setTimeout(function () { scroll(c, a, b, i); }, 20);
+			}
+			// start scrolling
+			scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+		}
+	</script>
 
 	{% include analytics.html %}
 
