@@ -17,4 +17,8 @@ The objective of this project was to create a more user-friendly and approachabl
 
 Turning the listings into a dropdown menu enabled the website to have extra space. For this, I decided to design a community experience for the users. By selecting one of the categories from the dropdown menu would open a space for that particular category (all categories if "all" is selected). This compartmentalization of categories was inspired a lot by Reddit and its subreddits. I hoped to build a product like theirs where community engagement is principle in the design.
 
-![](/uploads/Untitled-2-01.png)![](/uploads/Craigslist wireframe-05.png)![](/uploads/Craigslist wireframe-06.png)![](/uploads/Craigslist wireframe-09.png)![](/uploads/Craigslist wireframe-08.png)![](/uploads/Craigslist wireframe-07.png)
+![](/uploads/Untitled-2-01.png)
+
+# High Fidelity
+
+![](/uploads/Craigslist wireframe-05.png)![](/uploads/Craigslist wireframe-06.png)![](/uploads/Craigslist wireframe-09.png)![](/uploads/Craigslist wireframe-08.png)![](/uploads/Craigslist wireframe-07.png)
