@@ -19,15 +19,13 @@ The objective of this project was to create a more user-friendly and approachabl
 * Make a space for each category so that it is easier for the community to engage with what they are most interested in.
 * Create a more intuitive user flow for creating a new post (try to make it singe-page).
 
-Using these as a starting point, I created a homepage that spotlights both the search function as well as the categories/subcategories. There were some liberties taken by putting all the categories into a dropdown menu within the search bar, but having the element be hoverable, I felt, would keep with the ease-of-use while boosting practicality and design.
+![](/uploads/Untitled-2-01.png)
 
-Using these traits as a starting point, I created a homepage that spotlights both the search function as well as the listings. There were some liberties taken by putting all the listings into a dropdown menu within the search bar, but having the element be hoverable, I felt, would keep with the ease of use and practicality.
+Using these as a starting point, I created a homepage that spotlights both the search function as well as the categories/subcategories. There were some liberties taken by putting all the categories into a dropdown menu within the search bar, but having the element be hoverable, I felt, would keep with the ease-of-use while boosting practicality and design.
 
 Turning the listings into a dropdown menu enabled the website to have extra space. And for this, I decided to design a community experience for the users. By selecting one of the categories from the dropdown menu would open a space for that particular category (all categories if "all" is selected). This compartmentalization of categories was inspired by Reddit and its subreddits. I hoped to build a similar product where community engagement is principle in the design.
 
 I was also able to create a "create post" module using a single-page overlay. To do this, I researched the ease and convenience of other popular sites like facebook, twitter, and reddit. However, with all the information needed to create a Craigslist posting (especially to allow posts from users without accounts), the module had to be larger to fit all the fields. To do this, I created a postcard-esque design, keeping metadata fields at the left and making a body field at the right. I also minimized any non-essentials into an "advanced" menu (i.e for phone numbers and addresses).
-
-![](/uploads/Untitled-2-01.png)
 
 # High Fidelity
 
