@@ -29,6 +29,4 @@ I was also able to create a "create post" module using a single-page overlay. To
 
 # High Fidelity
 
-![](/uploads/Craigslist wireframe-05.png)![](/uploads/Craigslist wireframe-08.png)
-
-![](/uploads/Craigslist wireframe-06.png)![](/uploads/Craigslist wireframe-09.png)![](/uploads/Craigslist wireframe-07.png)
+![](/uploads/Craigslist wireframe-05.png)![](/uploads/Craigslist wireframe-08.png)![](/uploads/Craigslist wireframe-06.png)![](/uploads/Craigslist wireframe-09.png)![](/uploads/Craigslist wireframe-07.png)
