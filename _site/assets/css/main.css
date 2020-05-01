@@ -179,6 +179,12 @@ header { z-index: -1; }
 
 .post_module_child p { padding: 64px 64px 64px 64px; font-family: "basier_circleregular"; line-height: auto; text-align: justify; }
 
+ul { font-family: "basier_circleregular"; font-size: 0.9rem; line-height: 1.5rem; }
+
+blockquote { padding: 64px 64px 32px 64px; }
+
+blockquote p { font-family: "Cormorant Garamond", serif; font-size: 1.8rem; line-height: 1.8rem; font-style: italic; }
+
 @media only screen and (max-width: 728px) { .post_content { margin-top: 88px; }
   .post_title { padding: 16px 16px 16px 20px; }
   .post_date { padding: 16px 16px 16px 20px; width: 35%; }
@@ -191,7 +197,9 @@ header { z-index: -1; }
   .post_gallery img { height: 225px; /* height of container */ }
   .page_nav { padding: 16px 16px 16px 16px; }
   .prev, .next { width: 100%; font-size: 1.2rem; }
-  .home { width: 100%; display: none; } }
+  .home { width: 100%; display: none; }
+  blockquote { margin: 0; padding: 8px 8px 8px 8px; }
+  blockquote p { font-family: "Cormorant Garamond", serif; font-size: 1.5rem; line-height: 1.5rem; font-style: italic; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .post_gallery { padding: 20px; background-color: var(--background-color); }
   .post_gallery img { height: 250px; /* height of container */ } }

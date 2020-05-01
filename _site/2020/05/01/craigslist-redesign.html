@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Other People — eunsoo lee</title>
+    <title>Craigslist Redesign — eunsoo lee</title>
     <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
@@ -36,9 +36,9 @@
         <div class="article_content">
 
             <div class="article_intro">
-                <div class="article_title"> Other People</div>
-                <div class="article_date"><time class="dt-published" datetime="2020-04-27T00:00:00-07:00" itemprop="datePublished">
-                        Apr 27, 2020
+                <div class="article_title"> Craigslist Redesign</div>
+                <div class="article_date"><time class="dt-published" datetime="2020-05-01T00:00:00-07:00" itemprop="datePublished">
+                        May 1, 2020
                     </time>—
 
 
@@ -59,14 +59,14 @@
                 
                 <div class="article_particulars">
                     <h1>Role</h1>
-                    <p>         Creative Co-Director</p>
+                    <p>         Product Designer</p>
                 </div>
                 
 
                 
                 <div class="article_particulars">
                     <h1>Mediums</h1>
-                    <p>         Illustrator, Photoshop, Ruby/SASS, InDesign</p>
+                    <p>         Illustrator</p>
                 </div>
                 
 
@@ -82,33 +82,39 @@
     
 
      
-                <h1 id="intro">Intro</h1>
+                <p><img src="/uploads/Thumb-01.png" alt="" /></p>
 
-<p>As both a writer and a designer, a project in co-directing design for a newfound literary magazine meant a lot to me. It gave me an opportunity to be a part of something that I truly loved doing in all its facets. Also, having that binary of literature and design enabled me to extrapolate and expand both fields in parallel while finding new ways to weave them together.</p>
+<h1 id="introwireframing">Intro/Wireframing</h1>
 
-<h1 id="logo">Logo</h1>
+<p>The objective of this project was to create a more user-friendly and approachable homepage experience for Craigslist. When first doing my research, I found that the categories being front and center of the homepage was refreshing and practical, and wanted to retain that element. However, the search bar felt a little too tucked into the corner for a site where the search function holds a lot of significance. This made it difficult to discern how the elements on either side of the sidebar was being prioritized. I also noticed, when making a new listing, the current UX shuffled through 5 pages — I wanted this to be 1. I set off with these in mind:</p>
 
-<p>The initial logo was sketched out by the Editor-in-Chief, Nicole Lopez. With this sketch, it was simple to create a clean, balanced logo that would translate well into different sizes and forms. A total of four were finalized into the final branding.</p>
+<ul>
+  <li>Bring the search bar front and center; keep this input field active when first entering the site.</li>
+  <li>Make a space for each category so that it is easier for the community to engage with what they are most interested in.</li>
+  <li>Create a more intuitive user flow for listing a new post (try to make it single-page).</li>
+</ul>
 
-<p><img src="/uploads/B6284E75-142C-4622-9481-A17F3BEF0D59-1.JPG" alt="" /><img src="/uploads/EBFC5849-A23F-4000-9E2A-A1C96A405899.JPG" alt="" /></p>
+<p><img src="/uploads/WireframeInitial2-01.png" alt="" /></p>
 
-<h1 id="typography">Typography</h1>
+<p>Using these as starting points, I created a homepage that spotlights both the search function as well as the categories/subcategories. There were some liberties taken by putting all the categories into one dropdown menu within the search bar, but having the element be hoverable, I felt, would keep with the ease-of-use while boosting practicality and design.</p>
 
-<p>The main type used throughout the branding is the Baiser family by Apito Foundry. Its diverse collection of fonts has been used as both H1 headers as well as H3 and H4. The clean design paved the way for a bolder, more flourishing text: Ogg Italic. Ogg Italic fills the space of the H2 header, coupling with Basier Regular to evoke a more literary-forward design.</p>
+<p>Turning the listings into a dropdown menu enabled the website to have extra space. And for this, I decided to design a community experience for the users. By selecting one of the categories from the dropdown menu would open a space for that particular category (all categories if “all” is selected). This compartmentalization of categories was inspired by subreddits in Reddit. I hoped to build a similar product where community engagement is principle in the design.</p>
 
-<p><img src="/uploads/2A7A12C6-31FB-4E78-A103-BEDDE78AE61E.JPG" alt="" /><img src="/uploads/A3D1F817-B3DB-4B34-831A-18020155E577 2.JPG" alt="" /></p>
+<p>I was also able to make a “create post” module using a single-page overlay. To do this, I researched the ease and convenience of posting in other popular sites like facebook, twitter, and reddit. However, with all the information needed to create a Craigslist posting (particularly to allow posts from users without accounts), the module had to be larger to fit more fields. To do this, I created a postcard-esque design, keeping metadata fields at the left and making a body field at the right. I also minimized any non-essentials into an “advanced” menu (i.e for phone numbers and addresses).</p>
 
-<h1 id="uxui">UX/UI</h1>
+<p><img src="/uploads/Untitled-2-01.png" alt="" /></p>
 
-<p><a href="https://otherpeoplesd.com">Visit website</a></p>
+<h1 id="high-fidelity">High Fidelity</h1>
 
-<p>One objective of this design was for the code environment to be modular. In doing so would pave way for succeeding developers to carry on the work fluidly. It is built on jekyll and SASS, implementing <a href="https://forestry.io/">Forestry.io</a> for extended customization in the CMS.</p>
+<p><img src="/uploads/Craigslist wireframe-05.png" alt="" /><img src="/uploads/Craigslist wireframe-08.png" alt="" /><img src="/uploads/Craigslist wireframe-06.png" alt="" /><img src="/uploads/Craigslist wireframe-09.png" alt="" /><img src="/uploads/Craigslist wireframe-07.png" alt="" /></p>
 
-<p>Another objective of this design was for the usability to be focused on readers. The idea of the minimal/brutalist design was to create a space that would spotlight attention to the contributions (the literature and art). It allows for minimal distractions and focuses on readership and viewership. As a perk, at the bottom right of the screen is a fixed toggle for light and dark mode. This is also defaulted to the user’s default device setting (in case they already have a preference).</p>
+<h1 id="branding">Branding</h1>
 
-<p>Though the frontend was design to be barebones, the code for the blog was written from the ground up, creating a website that groups and categorizes the contributions into its respective poetry, fiction, nonfiction, and visual art containers.</p>
+<p>I decided to go with a sans-serif typeface for the branding in order to keep the aesthetic of the website as unobtrusive as possible (especially with the amount of text that is displayed on the screen at any given time).</p>
 
-<p><img src="/uploads/C987B3A2-FBF4-4183-B067-B7CC1D956B87 2.jpg" alt="" /><img src="/uploads/730014EB-2EB9-44B0-96F8-D8D80489FCA9.JPG" alt="" /></p>
+<p>For the color palette, I wanted to convey change from the past Craigslist into a newer and refreshed brand. To do this, I opted for a color gradient, flowing from its classic purple to a lighter blue.</p>
+
+<p><img src="/uploads/Branding-01.png" alt="" /><img src="/uploads/Branding-02.png" alt="" /></p>
   
          
           
@@ -134,12 +140,10 @@
 
     <div class="page_nav">
         
-        <a class="prev" href="/2020/04/02/kusudama.html">
-            < Sun God Festival</a>
+        <a class="prev" href="/2020/04/27/other-people.html">
+            < Other People</a>
                 
 
-                
-                <a class="next" href="/2020/05/01/craigslist-redesign.html">Craigslist Redesign ></a>
                 
     </div>
 
