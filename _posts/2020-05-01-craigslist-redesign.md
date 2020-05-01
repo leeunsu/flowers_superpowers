@@ -19,7 +19,7 @@ The objective of this project was to create a more user-friendly and approachabl
 * Make a space for each category so that it is easier for the community to engage with what they are most interested in.
 * Create a more intuitive user flow for listing a new post (try to make it single-page).
 
-![](/uploads/WireframeInitial2-01.png)
+![Current v. Proposal](/uploads/WireframeInitial2-01.png)
 
 Using these as starting points, I created a homepage that spotlights both the search function as well as the categories/subcategories. There were some liberties taken by putting all the categories into one dropdown menu within the search bar, but having the element be hoverable, I felt, would keep with the ease-of-use while boosting practicality and design.
 
