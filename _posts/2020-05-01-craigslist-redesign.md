@@ -37,6 +37,6 @@ I was also able to make a "create post" module using a single-page overlay. To d
 
 I decided to go with a sans-serif typeface for the branding in order to keep the aesthetic of the website as unobtrusive as possible (especially with the amount of text that is displayed on the screen at any given time).
 
-For the color palette, I wanted to convey change from the past Craigslist into a newer and refreshed brand. To do this, I opted for a color gradient making a, flowing from its classic purple to a lighter blue.
+For the color palette, I wanted to convey change from the past Craigslist into a newer and refreshed brand. To do this, I opted for a color gradient, flowing from its classic purple to a lighter blue.
 
 ![](/uploads/Branding-01.png)![](/uploads/Branding-02.png)
