@@ -13,19 +13,19 @@ gallery: []
 
 # Intro/Wireframing
 
-The objective of this project was to create a more user-friendly and approachable homepage experience for Craigslist. When first doing my research, I found that the listings being front and center of the homepage to be refreshing and practical. However, the search bar felt a little too tucked into the corner for a site where the search function holds a lot of significance. This made it difficult to discern how the elements on either side of the sidebar was prioritized. I also noticed, when making a new listing, the current UX shuffled through 5 pages — I wanted this to be 1. So, I set off with these in mind:
+The objective of this project was to create a more user-friendly and approachable homepage experience for Craigslist. When first doing my research, I found that the listings being front and center of the homepage to be refreshing and practical, and wanted to retain that element. However, the search bar felt a little too tucked into the corner for a site where the search function holds a lot of significance. This made it difficult to discern how the elements on either side of the sidebar was being prioritized. I also noticed, when making a new listing, the current UX shuffled through 5 pages — I wanted this to be 1. I set off with these in mind:
 
 * Bring the search bar front and center; keep this input field active when first entering the site.
 * Make a space for each category so that it is easier for the community to engage with what they are most interested in.
-* Create a more intuitive user flow for creating a new post (try to make it singe-page).
+* Create a more intuitive user flow for listing a new post (try to make it single-page).
 
 ![](/uploads/WireframeInitial2-01.png)
 
-Using these as a starting point, I created a homepage that spotlights both the search function as well as the categories/subcategories. There were some liberties taken by putting all the categories into a dropdown menu within the search bar, but having the element be hoverable, I felt, would keep with the ease-of-use while boosting practicality and design.
+Using these as starting points, I created a homepage that spotlights both the search function as well as the categories/subcategories. There were some liberties taken by putting all the categories into one dropdown menu within the search bar, but having the element be hoverable, I felt, would keep with the ease-of-use while boosting practicality and design.
 
-Turning the listings into a dropdown menu enabled the website to have extra space. And for this, I decided to design a community experience for the users. By selecting one of the categories from the dropdown menu would open a space for that particular category (all categories if "all" is selected). This compartmentalization of categories was inspired by Reddit and its subreddits. I hoped to build a similar product where community engagement is principle in the design.
+Turning the listings into a dropdown menu enabled the website to have extra space. And for this, I decided to design a community experience for the users. By selecting one of the categories from the dropdown menu would open a space for that particular category (all categories if "all" is selected). This compartmentalization of categories was inspired by subreddits in Reddit. I hoped to build a similar product where community engagement is principle in the design.
 
-I was also able to create a "create post" module using a single-page overlay. To do this, I researched the ease and convenience of other popular sites like facebook, twitter, and reddit. However, with all the information needed to create a Craigslist posting (especially to allow posts from users without accounts), the module had to be larger to fit all the fields. To do this, I created a postcard-esque design, keeping metadata fields at the left and making a body field at the right. I also minimized any non-essentials into an "advanced" menu (i.e for phone numbers and addresses).
+I was also able to make a "create post" module using a single-page overlay. To do this, I researched the ease and convenience of posting in other popular sites like facebook, twitter, and reddit. However, with all the information needed to create a Craigslist posting (particularly to allow posts from users without accounts), the module had to be larger to fit more fields. To do this, I created a postcard-esque design, keeping metadata fields at the left and making a body field at the right. I also minimized any non-essentials into an "advanced" menu (i.e for phone numbers and addresses).
 
 ![](/uploads/Untitled-2-01.png)
 
@@ -35,8 +35,8 @@ I was also able to create a "create post" module using a single-page overlay. To
 
 # Branding
 
-I decided to go with a sans-serif typeface for the branding. I wanted to keep the aesthetic of the website as unobtrusive as possible, especially with the amount of text that is displayed on the screen at one time.
+I decided to go with a sans-serif typeface for the branding in order to keep the aesthetic of the website as unobtrusive as possible (especially with the amount of text that is displayed on the screen at any given time).
 
-For the color palette, I wanted to convey a change from the past Craigslist purple palette while still keeping it. To do this, I opted for a color gradient making a, flowing from its classic purple to a lighter blue.
+For the color palette, I wanted to convey change from the past Craigslist into a newer and refreshed brand. To do this, I opted for a color gradient making a, flowing from its classic purple to a lighter blue.
 
 ![](/uploads/Branding-01.png)![](/uploads/Branding-02.png)
