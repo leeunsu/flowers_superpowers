@@ -2,7 +2,7 @@
 layout: article
 image: "/uploads/Thumb-01.png"
 title: Craigslist Redesign
-date: 2020-05-01 07:00:00 +0000
+date: 2020-05-01T07:00:00.000+00:00
 role: Product Designer
 medium: Illustrator
 collaborators: ''
@@ -13,9 +13,9 @@ gallery: []
 
 # Intro/Wireframing
 
-The objective of this project was to create a more user-friendly and approachable homepage experience for Craigslist. When first doing my research, I found that the categories being front and center of the homepage was refreshing and practical, and wanted to retain that element. However, the search bar felt a little too tucked into the corner for a site where the search function holds a lot of significance. This made it difficult to discern how the elements on either side of the sidebar was being prioritized. I also noticed, when making a new listing, the current UX shuffled through 5 pages — I wanted this to be 1. I set off with these in mind:
+The objective of this project was to create a more user-friendly and approachable homepage experience for Craigslist. When first doing my research, I found that the categories being front and center of the homepage was refreshing and practical, and wanted to retain that element. However, the search bar felt a little too tucked into the corner for a site where the search function held a lot of significance. This made it difficult to discern how the elements on either side of the sidebar were being prioritized. I also noticed, when making a new listing, the current UX shuffled through 5 pages — I wanted to narrow this down to 1. I set off with these in mind:
 
-* Bring the search bar front and center; keep this input field active when first entering the site.
+* Bring the search bar into the spotlight; keep this input field active when first entering the site.
 * Make a space for each category so that it is easier for the community to engage with what they are most interested in.
 * Create a more intuitive user flow for listing a new post (try to make it single-page).
 
