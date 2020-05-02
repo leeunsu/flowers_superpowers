@@ -3,8 +3,6 @@
 //   border-width: 1px;
 // }
 
-
-
 .article_content {
   width: 70%;
   margin: auto;
@@ -40,14 +38,14 @@
     font-size: $fontSize;
     line-height: 1.5rem;
   }
-  
+
   blockquote {
     padding: $block3 $block3 $block2 $block3;
     p {
       font-family: "Cormorant Garamond", serif;
       font-size: 1.8rem;
       line-height: 1.8rem;
-  
+
       font-style: italic;
     }
   }
@@ -90,11 +88,16 @@
 
 .article_particulars_container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 40% 40% 20%;
   grid-gap: 1px;
   text-align: left;
-  :nth-child(3) {
-    text-align: right;
+
+}
+
+.article_particulars {
+  padding-right: $block3;
+  p {
+    text-align: left;
   }
 }
 
@@ -122,14 +125,13 @@
     }
 
     blockquote {
-
       margin: 0;
-      padding: $block1 $block1 $block1  $block1;
+      padding: $block1 $block1 $block1 $block1;
       p {
         font-family: "Cormorant Garamond", serif;
         font-size: 1.5rem;
         line-height: 1.5rem;
-    
+
         font-style: italic;
       }
     }
@@ -169,8 +171,19 @@
     :nth-child(3) {
       text-align: left;
     }
+
   }
+
+  .article_particulars {
+    p {
+      text-align: left;
+    }
+   
+  }
+
+
 }
+
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
   .article_particulars_container {
@@ -185,13 +198,11 @@
   .article_content {
     width: 90%;
     blockquote {
-
       margin: 0;
-      padding: $block2 $block2 $block2  $block2;
+      padding: $block2 $block2 $block2 $block2;
       p {
         font-family: "Cormorant Garamond", serif;
 
-    
         font-style: italic;
       }
     }
@@ -199,10 +210,8 @@
 }
 
 
-
-
-
-
-
-
-
+@media screen and (min-width: 2400px) {
+  .article_content {
+    width: 50%;
+  }
+}

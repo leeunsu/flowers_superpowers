@@ -206,7 +206,7 @@
   }
   p {
     
-    line-height: 1.2rem;
+    line-height: 1.5rem;
   }
   opacity: 1;
 }
@@ -414,6 +414,13 @@
       height: 500px; /* height of container */
       object-fit: cover;
     }
+  }
+
+  .intro {
+    width: 50%;
+  }
+  .about_content {
+    width: 50%;
   }
 }
 

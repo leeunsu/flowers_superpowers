@@ -13,9 +13,7 @@
     {% include header.html %}
 
     <div class="post_content">
-
         <div class="post_title" itemprop="name headline">{{ page.title | escape }}</div>
-
         <div class="post_date">
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -29,19 +27,10 @@
             </time>
             {%- endif -%}
         </div>
-
-
-
         <br>
-
-
-
-
         {{ content}}
 
-
     </div>
-
 
     <div class="post_image">
         {% if page.image %}
