@@ -32,7 +32,7 @@ header, .header_article2 { z-index: -1; }
 
 .side_text_right { font-family: "basier_circleregular"; font-size: 0.9rem; margin: 0; position: fixed; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); transform: rotate(90deg); right: 8px; text-align: center; z-index: -1; }
 
-@media only screen and (max-width: 728px) { header, .header_article { display: flex; padding: 16px 0 0 25px; width: 100%; }
+@media only screen and (max-width: 728px) { header, .header_article, .header_article2 { display: flex; padding: 16px 0 0 25px; width: 100%; }
   .side_text_left, .side_text_right { display: none; }
   .block_child :nth-child(3) { display: none; } }
 
