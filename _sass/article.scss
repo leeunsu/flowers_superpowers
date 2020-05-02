@@ -11,7 +11,6 @@
   grid-template-columns: auto auto;
   grid-gap: 1px;
   padding: 0;
-
   iframe {
     width: 100%;
     height: 600px;
@@ -35,6 +34,22 @@
   }
   a:hover {
     text-decoration: none;
+  }
+  ul {
+    font-family: "basier_circleregular";
+    font-size: $fontSize;
+    line-height: 1.5rem;
+  }
+  
+  blockquote {
+    padding: $block3 $block3 $block2 $block3;
+    p {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 1.8rem;
+      line-height: 1.8rem;
+  
+      font-style: italic;
+    }
   }
 }
 
@@ -78,9 +93,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1px;
   text-align: left;
-
-
-
   :nth-child(3) {
     text-align: right;
   }
@@ -107,6 +119,19 @@
     }
     a:hover {
       text-decoration: none;
+    }
+
+    blockquote {
+
+      margin: 0;
+      padding: $block1 $block1 $block1  $block1;
+      p {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    
+        font-style: italic;
+      }
     }
   }
 
@@ -159,6 +184,17 @@
 
   .article_content {
     width: 90%;
+    blockquote {
+
+      margin: 0;
+      padding: $block2 $block2 $block2  $block2;
+      p {
+        font-family: "Cormorant Garamond", serif;
+
+    
+        font-style: italic;
+      }
+    }
   }
 }
 

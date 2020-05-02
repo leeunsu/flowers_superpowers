@@ -21,7 +21,11 @@
         <a href="http://localhost:4000">eunsoo lee</a>
         <div class="block_child"><a href="http://localhost:4000">home</a>
             <a href="/studies">studies</a>
-            <a id="theme-toggle" onclick="modeSwitcher()"></a></div>
+       
+
+            <a type="button" onclick="smoothScroll(document.getElementById('third'))">
+                    about
+            </a>
 
 
 
@@ -893,6 +897,7 @@
 
 
 		<div class="module"> 
+			<div class="third" id="third"></div>
 			<div class="module_child">
 				<p>about</p>
 			</div>
@@ -1898,10 +1903,13 @@
 
       <div class="footer_module">
         much love from La Jolla, CA
-        <br><br>
+        <br>
         <p></p>
+        
                <p> <a href="https://github.com/leeunsu" target="blank">github</a></p>
        <p> <a href="https://open.spotify.com/playlist/4uOsmC5pRnVuxkCKLCFRd2?si=_ZG18EpeTp6TQalhKx_YUA" target="blank">spotify playlist</a></p>
+
+         <p>   <a id="theme-toggle" onclick="modeSwitcher()"></a></p>
       </div>
       
 
@@ -1976,6 +1984,14 @@ if (theme === "dark") {
 </script>
 
 	</div>
+
+
+
+
+
+
+
+
 
 	<script>
 		window.smoothScroll = function (target) {
