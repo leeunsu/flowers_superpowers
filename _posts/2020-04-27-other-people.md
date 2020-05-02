@@ -1,8 +1,8 @@
 ---
 layout: article
-image: "/uploads/C987B3A2-FBF4-4183-B067-B7CC1D956B87 2.jpg"
+image: "/uploads/730014EB-2EB9-44B0-96F8-D8D80489FCA9.JPG"
 title: Other People
-date: 2020-04-27 07:00:00 +0000
+date: 2020-04-27T07:00:00.000+00:00
 role: Creative Co-Director
 medium: Illustrator, Photoshop, Ruby/SASS, InDesign
 collaborators: ''
