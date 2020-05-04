@@ -35,4 +35,4 @@ Another objective of this design was for the usability to be focused on readers.
 
 Though the frontend was design to be barebones, the code for the blog was written from the ground up, creating a website that groups and categorizes the contributions into its respective poetry, fiction, nonfiction, and visual art containers.
 
-![](/uploads/C987B3A2-FBF4-4183-B067-B7CC1D956B87 2.jpg)![](/uploads/730014EB-2EB9-44B0-96F8-D8D80489FCA9.JPG)
+![](/uploads/OtherPeopleDarkMode.png)![](/uploads/C987B3A2-FBF4-4183-B067-B7CC1D956B87 2.jpg)![](/uploads/730014EB-2EB9-44B0-96F8-D8D80489FCA9.JPG)
