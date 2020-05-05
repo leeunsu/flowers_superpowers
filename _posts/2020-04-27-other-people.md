@@ -17,13 +17,13 @@ As both a writer and a designer, a project in co-directing design for a newfound
 
 The initial logo was sketched out by the Editor-in-Chief, Nicole Lopez. With this sketch, it was simple to create a clean, balanced logo that would translate well into different sizes and forms. A total of four were finalized into the final branding.
 
-![](/uploads/B6284E75-142C-4622-9481-A17F3BEF0D59-1.JPG)![](/uploads/EBFC5849-A23F-4000-9E2A-A1C96A405899.JPG)
+![](/uploads/B6284E75-142C-4622-9481-A17F3BEF0D59-1.JPG)![](/uploads/56E20A87-FC33-4B52-9B77-0669479E46D3.JPG)
 
 # Typography
 
 The main type used throughout the branding is the Baiser family by Apito Foundry. Its diverse collection of fonts has been used as both H1 headers as well as H3 and H4. The clean design paved the way for a bolder, more flourishing text: Ogg Italic. Ogg Italic fills the space of the H2 header, coupling with Basier Regular to evoke a more literary-forward design.
 
-![](/uploads/2A7A12C6-31FB-4E78-A103-BEDDE78AE61E.JPG)![](/uploads/A3D1F817-B3DB-4B34-831A-18020155E577 2.JPG)
+![](/uploads/015BD80F-A81F-4928-AB9C-19369B0E2D6F.JPG)![](/uploads/2A7A12C6-31FB-4E78-A103-BEDDE78AE61E.JPG)![](/uploads/A3D1F817-B3DB-4B34-831A-18020155E577 2.JPG)
 
 # UX/UI
 
